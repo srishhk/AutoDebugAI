@@ -2,7 +2,7 @@
 
 Predicts which GitHub pull requests are likely to introduce bugs, so reviewers know which ones need extra attention.
 
-> 🚧 Work in progress — data pipeline done, model training next.
+Work in progress — data pipeline done, model training next.
 
 ## How it works
 
