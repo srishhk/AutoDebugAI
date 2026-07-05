@@ -2,7 +2,7 @@
 
 Predicts which GitHub pull requests are likely to introduce bugs, so reviewers know which ones need extra attention.
 
-Work in progress — data pipeline done, model training next.
+Work in progress — baseline models trained, NLP features next.
 
 ## How it works
 
@@ -11,6 +11,19 @@ Work in progress — data pipeline done, model training next.
 3. **Train a model** *(coming next)* — predict the risk of new PRs from features like size, files changed, and author history
 
 Current dataset: **201 buggy / 299 safe PRs (40% buggy)**
+
+
+## Results so far 
+| Model | Features | AUC |
+|---|---|---|
+| Logistic Regression | 7 numeric (PR size, review activity) | **0.705** |
+| Random Forest | 7 numeric | 0.662 |
+| Logistic Regression | + author history (10 features) | 0.695 |
+| Random Forest | + author history | 0.609 |
+
+Author-history features (past PRs, past bug rate) did not improve performance —
+most PRs in this sample come from one-time contributors, so authors have little
+usable history. Next step: NLP embeddings of PR titles.
 
 ## Project structure
 
