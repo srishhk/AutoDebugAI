@@ -25,6 +25,15 @@ Author-history features (past PRs, past bug rate) did not improve performance â€
 most PRs in this sample come from one-time contributors, so authors have little
 usable history. Next step: NLP embeddings of PR titles.
 
+## LeaderBoard
+| Model | Features | AUC |
+|---|---|---|
+| **Random Forest** | numeric + PCA-30 title embeddings | **0.710** |
+| Logistic Regression | same | 0.662 |
+| XGBoost | same | 0.658 |
+| LightGBM | same | 0.631 |
+
+
 ## Project structure
 
 ```
