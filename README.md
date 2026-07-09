@@ -2,48 +2,53 @@
 
 Predicts which GitHub pull requests are likely to introduce bugs, so reviewers know which ones need extra attention.
 
-Work in progress — baseline models trained, NLP features next.
+Work in progress — modeling complete, API and dashboard next.
 
 ## How it works
 
 1. **Collect data** — pulls 500 merged PRs and 2,000 commits from the `psf/requests` repo using the GitHub API
 2. **Label them** — a PR is marked "buggy" if a bug-fix commit later changed the same files within 90 days of the merge
-3. **Train a model** *(coming next)* — predict the risk of new PRs from features like size, files changed, and author history
+3. **Train a model** — predicts the bug risk of new PRs from features like size, files changed, and title text
 
-Current dataset: **201 buggy / 299 safe PRs (40% buggy)**
+Dataset: **201 buggy / 299 safe PRs (40% buggy)**
 
+## Results
 
-## Results so far 
-| Model | Features | AUC |
-|---|---|---|
-| Logistic Regression | 7 numeric (PR size, review activity) | **0.705** |
-| Random Forest | 7 numeric | 0.662 |
-| Logistic Regression | + author history (10 features) | 0.695 |
-| Random Forest | + author history | 0.609 |
+Final feature set: 10 numeric features + PR title embeddings (`all-MiniLM-L6-v2`, compressed 384 → 30 dims with PCA).
 
-Author-history features (past PRs, past bug rate) did not improve performance —
-most PRs in this sample come from one-time contributors, so authors have little
-usable history. Next step: NLP embeddings of PR titles.
+| Model | AUC |
+|---|---|
+| **Random Forest** | **0.710** |
+| Logistic Regression | 0.662 |
+| XGBoost | 0.658 |
+| LightGBM | 0.631 |
 
-## LeaderBoard
-| Model | Features | AUC |
-|---|---|---|
-| **Random Forest** | numeric + PCA-30 title embeddings | **0.710** |
-| Logistic Regression | same | 0.662 |
-| XGBoost | same | 0.658 |
-| LightGBM | same | 0.631 |
+The winning Random Forest is saved to `models/best_model.pkl`.
 
+Findings from the experiments along the way:
+
+- **Author-history features didn't help** — 45% of PRs come from first-time contributors, so most authors have no usable history.
+- **Full 384-dim title embeddings overfit** (394 features vs 400 training rows); PCA compression to 30 dims fixed it and produced the best result.
+- **Gradient boosting underperformed** — expected with only 400 training rows, where lower-variance models generalize better.
+
+## What drives risk?
+
+![SHAP summary](docs/shap_summary.png)
+
+PR size dominates: more changed files and added lines push risk up. Title embeddings carry surprising signal — the strongest single feature is a title dimension, meaning how a PR is described correlates with bug risk.
 
 ## Project structure
 
 ```
 AutoDebugAI/
-├── data/                    # raw JSON + labeled CSV (gitignored)
-├── notebooks/               # experiments
+├── data/                        # raw JSON + labeled CSVs (gitignored)
+├── docs/                        # plots and images
+├── models/                      # best_model.pkl (Random Forest)
+├── notebooks/                   # experiments: baseline → features → NLP → shootout → SHAP
 ├── src/
-│   ├── collect.py           # fetch merged PRs
-│   ├── collect_commits.py   # fetch commits
-│   └── label.py             # create labeled dataset
+│   ├── collect.py               # fetch merged PRs
+│   ├── collect_commits.py       # fetch commits
+│   └── label.py                 # create labeled dataset
 ├── requirements.txt
 └── README.md
 ```
@@ -68,8 +73,8 @@ python src/collect_commits.py
 python src/label.py
 ```
 
-This creates `data/processed/labeled_prs.csv` — the training dataset.
+This creates `data/processed/labeled_prs.csv` — the training dataset. Model training and analysis live in `notebooks/`.
 
 ## Tech
 
-Python · PyGithub · pandas · scikit-learn — with XGBoost, SHAP, FastAPI, and Streamlit planned.
+Python · PyGithub · pandas · scikit-learn · sentence-transformers · XGBoost · LightGBM · SHAP — FastAPI and Streamlit coming next.
