@@ -33,7 +33,7 @@ Findings from the experiments along the way:
 
 ## What drives risk?
 
-![SHAP summary](docs/shap_summary.png)
+![SHAP summary](output.png)
 
 PR size dominates: more changed files and added lines push risk up. Title embeddings carry surprising signal — the strongest single feature is a title dimension, meaning how a PR is described correlates with bug risk.
 
@@ -42,13 +42,16 @@ PR size dominates: more changed files and added lines push risk up. Title embedd
 ```
 AutoDebugAI/
 ├── data/                        # raw JSON + labeled CSVs (gitignored)
-├── docs/                        # plots and images
-├── models/                      # best_model.pkl (Random Forest)
+├── models/                      # best_model.pkl + pca.pkl
 ├── notebooks/                   # experiments: baseline → features → NLP → shootout → SHAP
 ├── src/
 │   ├── collect.py               # fetch merged PRs
 │   ├── collect_commits.py       # fetch commits
-│   └── label.py                 # create labeled dataset
+│   ├── label.py                 # create labeled dataset
+│   ├── features.py              # build feature matrix (numeric + PCA title embeddings)
+│   ├── train.py                 # train Random Forest, save model
+│   └── predict.py               # score a PR: risk + top reasons
+├── output.png                   # SHAP summary plot
 ├── requirements.txt
 └── README.md
 ```
@@ -65,7 +68,7 @@ Add a GitHub token to a `.env` file:
 GITHUB_TOKEN=your_token_here
 ```
 
-Then:
+Build the dataset:
 
 ```bash
 python src/collect.py
@@ -73,7 +76,18 @@ python src/collect_commits.py
 python src/label.py
 ```
 
-This creates `data/processed/labeled_prs.csv` — the training dataset. Model training and analysis live in `notebooks/`.
+Train and predict:
+
+```bash
+python src/train.py      # trains the model (AUC ~0.71), saves models/
+python src/predict.py    # scores a demo PR
+```
+
+Example prediction from `predict.py`:
+
+```json
+{"risk_score": 0.635, "reasons": ["num_files raises risk", "additions raises risk", "changed_files raises risk"]}
+```
 
 ## Tech
 
