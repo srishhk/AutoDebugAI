@@ -5,4 +5,5 @@ data/processed/
 __pycache__/
 .ipynb_checkpoints/
 *.pkl
+!models/*.pkl
 .vscode/
