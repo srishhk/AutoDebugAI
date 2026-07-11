@@ -89,6 +89,21 @@ Example prediction from `predict.py`:
 {"risk_score": 0.635, "reasons": ["num_files raises risk", "additions raises risk", "changed_files raises risk"]}
 ```
 
+## API
+
+```bash
+uvicorn src.api:app --reload
+```
+
+Open http://127.0.0.1:8000/docs for interactive testing (local).
+
+`POST /predict` takes PR features and returns:
+
+```json
+{"risk_score": 0.635, "risk_level": "medium", "reasons": ["num_files raises risk", "additions raises risk", "changed_files raises risk"]}
+```
+
+
 ## Tech
 
 Python · PyGithub · pandas · scikit-learn · sentence-transformers · XGBoost · LightGBM · SHAP — FastAPI and Streamlit coming next.
