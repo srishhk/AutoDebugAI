@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-
+from src.fetch_pr import fetch_pr_features
 from src.predict import score_pr
 
 app = FastAPI(
@@ -22,7 +22,6 @@ class PRFeatures(BaseModel):
     author_past_bug_rate: float = 0.0
     is_first_pr: int = 1
     title: str
-
 
 class RiskResponse(BaseModel):
     risk_score: float
@@ -47,6 +46,22 @@ def root():
 def predict(pr: PRFeatures):
     try:
         result = score_pr(pr.model_dump())
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    return {
+        "risk_score": result["risk_score"],
+        "risk_level": risk_level(result["risk_score"]),
+        "reasons": result["reasons"],
+    }
+
+@app.get("/predict/{pr_number}", response_model=RiskResponse)
+def predict_live(pr_number: int):
+    try:
+        features = fetch_pr_features(pr_number)
+    except Exception:
+        raise HTTPException(status_code=404, detail=f"PR #{pr_number} not found")
+    try:
+        result = score_pr(features)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     return {
