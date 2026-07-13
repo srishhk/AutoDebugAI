@@ -103,6 +103,16 @@ Open http://127.0.0.1:8000/docs for interactive testing (local).
 {"risk_score": 0.635, "risk_level": "medium", "reasons": ["num_files raises risk", "additions raises risk", "changed_files raises risk"]}
 ```
 
+## Dashboard
+
+```bash
+streamlit run dashboard.py
+```
+
+![Dashboard](dashboard.png)
+
+Score any live PR from `psf/requests` by number, and browse recent PRs
+in a review queue sorted riskiest-first.
 
 ## Tech
 
