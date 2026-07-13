@@ -109,8 +109,6 @@ Open http://127.0.0.1:8000/docs for interactive testing (local).
 streamlit run dashboard.py
 ```
 
-![Dashboard](dashboard.png)
-
 Score any live PR from `psf/requests` by number, and browse recent PRs
 in a review queue sorted riskiest-first.
 
