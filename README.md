@@ -54,7 +54,7 @@ PR size dominates: more changed files and added lines push risk up. Title embedd
 uvicorn src.api:app --reload
 ```
 
-Open http://127.0.0.1:8000/docs for interactive testing.
+Open http://127.0.0.1:8000/docs for interactive testing (local)
 
 - `POST /predict` — score a PR from provided features
 - `GET /predict/{pr_number}` — fetch a live PR from `psf/requests` and score it
