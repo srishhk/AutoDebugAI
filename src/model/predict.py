@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 import shap
 
-from src.features import build_features, NUMERIC
+from src.model.features import build_features, NUMERIC
 
 _model = None
 _explainer = None

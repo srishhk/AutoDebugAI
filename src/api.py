@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from src.fetch_pr import fetch_pr_features
-from src.predict import score_pr
+from src.data.fetch_pr import fetch_pr_features
+from src.model.predict import score_pr
 
 app = FastAPI(
     title="AutoDebug AI",

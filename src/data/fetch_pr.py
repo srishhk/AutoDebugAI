@@ -1,4 +1,4 @@
-from src.collect import get_client, REPO_NAME
+from src.data.collect import get_client, REPO_NAME
 
 
 def fetch_pr_features(pr_number: int, repo_name: str = REPO_NAME) -> dict:

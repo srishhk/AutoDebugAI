@@ -2,7 +2,7 @@ import json
 import time
 from pathlib import Path
 
-from collect import get_client, RAW_DIR, REPO_NAME
+from src.data.collect import get_client, RAW_DIR, REPO_NAME
 
 
 def collect_commits(repo_name: str = REPO_NAME, max_commits: int = 2000):
