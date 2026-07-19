@@ -18,7 +18,7 @@ def get_model():
 
 
 def score_pr(pr_dict):
-    """pr_dict: numeric features + 'title'. Returns risk + top 3 reasons."""
+    """pr_dict: numeric features + 'title'. Returns risk, reasons, and contributions."""
     model, explainer = get_model()
     df = pd.DataFrame([pr_dict])
     X, names = build_features(df, fit_pca=False)
@@ -28,15 +28,22 @@ def score_pr(pr_dict):
     sv = explainer.shap_values(X)
     sv = sv[:, :, 1] if np.array(sv).ndim == 3 else sv
     contrib = pd.Series(sv[0], index=names)
-    top3 = contrib.abs().sort_values(ascending=False).head(3)
 
-    reasons = []
-    for feat in top3.index:
-        label = "PR title content" if feat.startswith("title_emb") else feat
-        direction = "raises" if contrib[feat] > 0 else "lowers"
-        reasons.append(f"{label} {direction} risk")
+    # group all title embedding dims into one "PR title content" contribution
+    title_total = contrib[[n for n in names if n.startswith("title_emb")]].sum()
+    grouped = contrib[[n for n in names if not n.startswith("title_emb")]].copy()
+    grouped["PR title content"] = title_total
 
-    return {"risk_score": round(risk, 3), "reasons": reasons}
+    top = grouped.abs().sort_values(ascending=False).head(5)
+
+    contributions = [
+        {"feature": f, "value": round(float(grouped[f]) * 100, 1),
+         "direction": "raises" if grouped[f] > 0 else "lowers"}
+        for f in top.index
+    ]
+    reasons = [f"{c['feature']} {c['direction']} risk" for c in contributions[:3]]
+
+    return {"risk_score": round(risk, 3), "reasons": reasons, "contributions": contributions}
 
 
 if __name__ == "__main__":
