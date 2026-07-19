@@ -21,7 +21,7 @@ Dataset: **201 buggy / 299 safe PRs (40% buggy)**
 streamlit run app/dashboard.py
 ```
 
-Score any live PR from `psf/requests` by number, see its risk gauge and top reasons, and browse recent PRs in a review queue sorted riskiest-first.
+Score any live PR from `psf/requests` by number, see its risk score and the features driving it, and browse recent PRs in a review queue sorted riskiest-first.
 
 ## Results
 
@@ -99,28 +99,28 @@ docker run -p 8000:8000 --env-file .env autodebug-ai
 ```
 AutoDebugAI/
 ├── app/
-│   └── dashboard.py             # Streamlit dashboard
-├── data/                        # raw JSON + labeled CSVs (gitignored)
+│   └── dashboard.py
+├── data/
 │   ├── raw/
 │   └── processed/
-├── docs/                        # images for the README
+├── docs/
 │   ├── dashboard.png
-│   └── output.png               # SHAP summary plot
+│   └── output.png
 ├── models/
-│   ├── best_model.pkl           # trained Random Forest
-│   └── pca.pkl                  # PCA transformer for serving
-├── notebooks/                   # experiments: baseline → features → NLP → shootout → SHAP
+│   ├── best_model.pkl
+│   └── pca.pkl
+├── notebooks/
 ├── src/
-│   ├── data/                    # data collection & labeling
-│   │   ├── collect.py           # fetch merged PRs
-│   │   ├── collect_commits.py   # fetch commits
-│   │   ├── label.py             # create labeled dataset
-│   │   └── fetch_pr.py          # fetch a live PR's features
-│   ├── model/                   # ML lifecycle
-│   │   ├── features.py          # build feature matrix (numeric + PCA embeddings)
-│   │   ├── train.py             # train Random Forest, save model
-│   │   └── predict.py           # score a PR: risk + reasons
-│   └── api.py                   # FastAPI service
+│   ├── data/
+│   │   ├── collect.py
+│   │   ├── collect_commits.py
+│   │   ├── label.py
+│   │   └── fetch_pr.py
+│   ├── model/
+│   │   ├── features.py
+│   │   ├── train.py
+│   │   └── predict.py
+│   └── api.py
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
