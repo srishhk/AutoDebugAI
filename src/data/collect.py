@@ -15,7 +15,13 @@ REPO_NAME = "psf/requests"
 def get_client():
     token = os.getenv("GITHUB_TOKEN")
     if not token:
-        raise ValueError("GITHUB_TOKEN not found in .env")
+        try:
+            import streamlit as st
+            token = st.secrets["GITHUB_TOKEN"]
+        except Exception:
+            pass
+    if not token:
+        raise ValueError("GITHUB_TOKEN not found in .env or Streamlit secrets")
     return Github(auth=Auth.Token(token))
 
 

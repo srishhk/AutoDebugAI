@@ -1,7 +1,8 @@
 venv/
 .env
 data/raw/
-data/processed/
+data/processed/*
+!data/processed/labeled_prs_v2.csv
 __pycache__/
 .ipynb_checkpoints/
 *.pkl

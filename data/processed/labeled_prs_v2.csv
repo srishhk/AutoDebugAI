@@ -1,0 +1,501 @@
+number,title,author,created_at,merged_at,additions,deletions,changed_files,commits,comments,review_comments,num_files,label,matched_fix,author_past_prs,author_past_bugs,author_past_bug_rate,is_first_pr
+4394,Add documentation for available status codes,zaneb,2017-11-21 21:31:13+00:00,2017-11-23 20:19:13+00:00,34,16,2,2,1,0,2,0,,0,0.0,0.0,1
+4442,Reduce overall memory usage by removing cgi dependency and writing a protected function,DemetriosBairaktaris,2017-12-31 21:15:20+00:00,2018-01-04 22:32:40+00:00,67,3,3,10,6,14,3,1,fix,0,0.0,0.0,1
+4451,Prefer https over http for links in the documentation,jdufresne,2018-01-06 19:25:15+00:00,2018-01-06 23:23:00+00:00,20,20,9,1,1,0,9,1,fix,0,0.0,0.0,1
+4460,Remove unsupported Python 3.3 from tox.ini,jdufresne,2018-01-11 02:38:08+00:00,2018-01-11 14:41:08+00:00,2,2,1,1,1,0,1,0,,1,1.0,1.0,0
+4459,Pass python_requires argument to setuptools,jdufresne,2018-01-11 02:34:04+00:00,2018-01-13 04:06:59+00:00,1,0,1,1,6,0,1,0,,2,1.0,0.5,0
+4468,Simple fix for the issue #2392,VasiliPupkin256,2018-01-13 00:42:07+00:00,2018-01-14 01:13:30+00:00,6,2,2,2,6,0,2,0,,0,0.0,0.0,1
+4427,Use hostname not netloc,ddormer,2017-12-12 15:08:10+00:00,2018-01-16 14:07:26+00:00,37,11,4,1,4,1,4,1,fix,0,0.0,0.0,1
+4439,Fix broken link to Certifi,nkonin,2017-12-28 09:17:44+00:00,2018-01-21 14:36:32+00:00,1,1,1,2,2,1,1,0,,0,0.0,0.0,1
+4452,append previous url fragment on redirect,nateprewitt,2018-01-07 21:28:31+00:00,2018-01-21 18:41:47+00:00,86,1,3,1,4,8,3,0,,0,0.0,0.0,1
+4496,"Pass kwargs from adapter send call to add_headers, per documentation",jonblum,2018-02-02 18:21:57+00:00,2018-02-03 13:40:45+00:00,1,1,1,1,2,0,1,0,,0,0.0,0.0,1
+4493,Start testing 3.7,nateprewitt,2018-02-01 08:40:50+00:00,2018-02-03 14:43:31+00:00,1,1,1,2,1,0,1,0,,1,0.0,0.0,0
+4498,Trim trialing white space throughout the project,jdufresne,2018-02-04 19:57:42+00:00,2018-02-05 16:37:19+00:00,7,16,8,1,3,0,8,1,fix,3,1.0,0.3333333333333333,0
+4507,Minor,ss18,2018-02-07 18:38:39+00:00,2018-02-08 00:25:23+00:00,2,2,2,2,2,1,2,0,,0,0.0,0.0,1
+4497,Clarify docs that Requests always uses certs from certifi,jdufresne,2018-02-03 00:01:39+00:00,2018-02-16 01:56:01+00:00,8,9,1,1,5,4,1,1,Merge pull request #4625 from nicktimko/patch-1,4,2.0,0.5,0
+4499,"Remove remaining references to removed, vendored packages",jdufresne,2018-02-05 02:50:07+00:00,2018-02-17 14:15:55+00:00,12,13,5,1,2,0,5,1,Merge branch 'master' into patch-1,5,3.0,0.6,0
+4500,Remove requests.packages for v3.0.0,jdufresne,2018-02-05 03:16:18+00:00,2018-03-08 18:00:50+00:00,0,30,4,1,3,0,4,1,Merge branch 'master' into patch-1,6,4.0,0.6666666666666666,0
+4542,Added type hints for help.py.,RatanShreshtha,2018-03-13 06:43:00+00:00,2018-03-13 13:52:06+00:00,4,2,1,1,5,0,1,0,,0,0.0,0.0,1
+4543,Type annoted requests/__init__.py.,RatanShreshtha,2018-03-14 18:15:21+00:00,2018-03-14 18:16:09+00:00,2,2,1,1,4,0,1,0,,1,0.0,0.0,0
+4547,add comment about json parameter changing content-type,saraislet,2018-03-16 19:40:11+00:00,2018-03-16 19:42:56+00:00,2,0,1,1,1,0,1,0,,0,0.0,0.0,1
+4596,Update all pypi.python.org URLs to pypi.org,jdufresne,2018-04-19 03:28:52+00:00,2018-04-19 10:41:37+00:00,9,9,5,1,1,0,5,1,Merge branch 'master' into patch-1,7,5.0,0.7142857142857143,0
+4620,fix windows builds,nateprewitt,2018-04-29 17:38:03+00:00,2018-04-29 23:56:10+00:00,1,1,1,1,0,0,1,1,Merge branch 'master' into patch-1,2,0.0,0.0,0
+4612,update json param's description to avoid confusion,Obeyed,2018-04-26 14:05:23+00:00,2018-04-30 15:00:20+00:00,1,1,1,1,5,0,1,0,,0,0.0,0.0,1
+4634,Spelling.,vshih,2018-05-07 17:52:02+00:00,2018-05-08 11:12:33+00:00,1,1,1,1,1,0,1,1,Merge branch 'master' into patch-1,0,0.0,0.0,1
+4583,Add a comment about lowercase env. variables precedence over uppercase,ZuZuD,2018-04-11 22:59:58+00:00,2018-05-13 13:15:57+00:00,2,0,1,1,5,1,1,1,Fix assumed hostname when using a 'file' URI scheme adapter,0,0.0,0.0,1
+4632,Update license copyright to 2018,mingrammer,2018-05-05 00:58:18+00:00,2018-05-13 17:30:58+00:00,1,1,1,2,0,0,1,1,Merge branch 'master' into patch-1,0,0.0,0.0,1
+4625,Certifi.io broken,nicktimko,2018-05-03 15:48:07+00:00,2018-05-14 16:22:11+00:00,1,1,1,1,2,0,1,1,Merge branch 'master' into patch-1,0,0.0,0.0,1
+4647,fix appveyor,nateprewitt,2018-05-16 06:04:37+00:00,2018-05-16 13:14:38+00:00,9,8,2,1,3,0,2,1,Merge branch 'master' into patch-1,3,1.0,0.3333333333333333,0
+4410,Add SHA-256 and SHA-512 digest auth algorithms,linuxlizard,2017-11-29 14:12:38+00:00,2018-05-16 14:06:58+00:00,64,41,2,6,15,0,2,1,Merge branch 'master' into patch-1,0,0.0,0.0,1
+4648,bring Pipfile.lock up to date with current constraints,nateprewitt,2018-05-16 14:57:14+00:00,2018-05-16 19:31:49+00:00,335,211,1,1,5,0,1,1,Merge branch 'master' into patch-1,4,2.0,0.5,0
+4631,Add long_description_content_type to setup.py,pradyunsg,2018-05-04 11:13:35+00:00,2018-05-17 14:34:07+00:00,1,0,1,3,9,0,1,1,port pyopenssl fix from urllib3,0,0.0,0.0,1
+4661,Response.content minor perf improvement,ofek,2018-05-26 23:11:52+00:00,2018-05-27 00:00:26+00:00,1,1,1,1,2,0,1,0,,0,0.0,0.0,1
+4669,Allow urllib3 1.23,michael-k,2018-06-05 12:06:27+00:00,2018-06-05 13:35:09+00:00,1,1,1,1,4,0,1,1,port pyopenssl fix from urllib3,0,0.0,0.0,1
+4676,Update Python 2 doc links to Python 3,jdufresne,2018-06-10 03:34:44+00:00,2018-06-10 15:37:09+00:00,3,3,2,1,1,0,2,0,,8,6.0,0.75,0
+4672,remove references to 2.6 support in documentation,nateprewitt,2018-06-06 05:07:17+00:00,2018-06-11 14:13:14+00:00,9,5,4,2,1,0,4,0,,5,3.0,0.6,0
+4513,Copy cookie policy when copying a CookieJar,laurentb,2018-02-14 16:45:26+00:00,2018-06-12 05:13:08+00:00,13,0,2,3,6,0,2,1,Merge pull request #4755 from dohvis/patch-1,0,0.0,0.0,1
+4501,Separate collections from collections.abc,rhettinger,2018-02-05 04:19:41+00:00,2018-06-12 05:15:01+00:00,17,19,7,1,3,3,7,1,Merge pull request #4723 from kalefranz/fix-no_proxy-file-url,0,0.0,0.0,1
+4682,v2.19.0,nateprewitt,2018-06-12 13:50:42+00:00,2018-06-12 14:38:11+00:00,23,11,5,1,1,0,5,0,,6,3.0,0.5,0
+4683,Do not alter status_codes docstring if it is None,martindurant,2018-06-12 21:55:41+00:00,2018-06-13 15:24:46+00:00,2,1,1,1,2,3,1,1,Merge pull request #4728 from yan12125/patch-1,0,0.0,0.0,1
+4551,Updated types in __init__.py according to types.py,RatanShreshtha,2018-03-21 19:38:06+00:00,2018-06-14 14:39:14+00:00,5,2,2,1,3,0,2,0,,2,0.0,0.0,0
+4685,Note that session() should not be used,Stevoisiak,2018-06-13 16:43:14+00:00,2018-06-21 19:09:06+00:00,6,1,1,1,11,8,1,1,Merge pull request #4718 from bmerry/fix-4716,0,0.0,0.0,1
+4708,"Change ""StackOverflow"" to ""Stack Overflow""",Stevoisiak,2018-06-25 15:46:48+00:00,2018-06-25 15:48:05+00:00,3,3,2,1,0,0,2,0,,1,1.0,1.0,0
+4709,Update max Twitter characters to 280,Stevoisiak,2018-06-25 16:56:32+00:00,2018-06-25 18:11:40+00:00,1,1,1,1,1,0,1,0,,2,1.0,0.5,0
+4710,Remove unused session variables,Stevoisiak,2018-06-26 16:35:25+00:00,2018-06-26 16:50:41+00:00,0,6,1,1,1,0,1,1,Merge pull request #4718 from bmerry/fix-4716,3,1.0,0.3333333333333333,0
+4713,Misspelled 'proxy' parameter in docstring,Stevoisiak,2018-06-26 18:58:55+00:00,2018-06-26 20:32:33+00:00,1,1,1,1,1,0,1,0,,4,2.0,0.5,0
+4728,Fix an invalid escape sequence,yan12125,2018-07-08 17:12:29+00:00,2018-07-09 12:19:50+00:00,1,1,1,1,1,0,1,0,,0,0.0,0.0,1
+4739,Document that params and data can be list of tuples everywhere,moy,2018-07-13 09:49:48+00:00,2018-07-17 22:16:03+00:00,26,13,3,2,9,6,3,1,Merge pull request #4718 from bmerry/fix-4716,0,0.0,0.0,1
+4712,Remove unused httpbin parameters,Stevoisiak,2018-06-26 18:32:35+00:00,2018-07-18 02:39:19+00:00,5,5,1,1,1,0,1,1,Merge pull request #4718 from bmerry/fix-4716,5,2.0,0.4,0
+4701,Documentation and tests for form-encoded multivalued elements as lists,akaihola,2018-06-20 19:26:18+00:00,2018-07-20 16:56:28+00:00,19,6,3,4,3,2,3,1,Merge pull request #4718 from bmerry/fix-4716,0,0.0,0.0,1
+4717,Add official Python 3.7 support,ericwb,2018-06-28 06:32:11+00:00,2018-07-24 14:44:38+00:00,30,11,3,8,12,9,3,1,Merge pull request #4791 from juozasget/patch-1,0,0.0,0.0,1
+4749,make content-type's charset information case-insensitive,derlin,2018-07-24 16:18:54+00:00,2018-07-24 16:42:28+00:00,5,1,2,1,1,0,2,1,Merge pull request #4723 from kalefranz/fix-no_proxy-file-url,0,0.0,0.0,1
+4755,Add return type on cookies.py,dohvis,2018-08-01 08:21:19+00:00,2018-08-02 17:53:44+00:00,2,0,1,1,1,0,1,0,,0,0.0,0.0,1
+4750,Update all documentation to show Python 3.7 is supported,jdufresne,2018-07-24 20:43:42+00:00,2018-08-02 17:55:41+00:00,3,1,3,1,1,0,3,0,,9,6.0,0.6666666666666666,0
+4678,"In docs, use intersphinx to link to Python documentation",jdufresne,2018-06-10 17:52:04+00:00,2018-08-12 03:35:00+00:00,19,22,3,1,4,0,3,1,Merge pull request #4839 from rabdill/patch-1,10,6.0,0.6,0
+4723,Fix assumed hostname when using a 'file' URI scheme adapter,kalefranz,2018-07-05 23:04:26+00:00,2018-08-13 16:54:33+00:00,5,0,2,1,5,0,2,0,,0,0.0,0.0,1
+4779,Integrate Native CPC by BuySellAds,sayzlim,2018-09-10 14:48:20+00:00,2018-09-10 14:49:31+00:00,317,4,4,1,1,0,4,1,Merge pull request #4782 from sayzlim/master,0,0.0,0.0,1
+4780,Correct fixed footer width,sayzlim,2018-09-10 14:52:54+00:00,2018-09-10 15:06:14+00:00,2,1,1,3,0,0,1,1,Merge pull request #4782 from sayzlim/master,1,1.0,1.0,0
+4781,Adjust padding and button placements,sayzlim,2018-09-10 17:18:03+00:00,2018-09-10 19:35:08+00:00,2,2,2,2,2,0,2,1,Merge pull request #4782 from sayzlim/master,2,2.0,1.0,0
+4782,Fix CSS error,sayzlim,2018-09-10 20:01:19+00:00,2018-09-10 20:02:01+00:00,1,2,2,1,1,0,2,0,,3,3.0,1.0,0
+4785,Fix a typo in a test docstring,alexwlchan,2018-09-13 05:27:55+00:00,2018-09-13 05:57:32+00:00,1,1,1,1,1,0,1,0,,0,0.0,0.0,1
+4718,Strip Authorization header whenever root URL changes,bmerry,2018-06-28 14:48:34+00:00,2018-09-14 12:08:05+00:00,44,11,2,2,16,20,2,0,,0,0.0,0.0,1
+4787,Fix broken essay link,vinayak-mehta,2018-09-14 01:05:10+00:00,2018-09-15 00:08:44+00:00,1,1,1,1,2,0,1,0,,0,0.0,0.0,1
+4791,"Tuple test_requirements was too long, PEP8",juozasget,2018-09-15 10:27:59+00:00,2018-09-15 13:44:27+00:00,8,1,1,1,0,0,1,0,,0,0.0,0.0,1
+4802,Update README.md to fix typo,schafezp,2018-09-21 16:23:04+00:00,2018-09-21 16:27:13+00:00,0,0,0,0,0,0,1,1,Merge pull request #4874 from kaylangan/patch-1,0,0.0,0.0,1
+4804,Remove dead link to unixstickers.com,jdufresne,2018-09-23 20:47:10+00:00,2018-09-30 20:04:01+00:00,0,2,1,1,1,0,1,0,,11,7.0,0.6363636363636364,0
+4805,Prefer https:// for URLs throughout project,jdufresne,2018-09-23 20:56:44+00:00,2018-10-01 00:27:24+00:00,90,90,20,1,4,2,20,1,Merge pull request #4910 from moy/master,12,7.0,0.5833333333333334,0
+4765,wrap url parsing exceptions from urllib3's PoolManager,nateprewitt,2018-08-11 20:00:13+00:00,2018-10-01 02:23:57+00:00,23,4,3,1,1,0,3,1,Merge branch 'master' into patch-1,7,3.0,0.42857142857142855,0
+4827,CVE URLs update: www sub-subdomain no longer valid,webmaven,2018-10-16 16:11:14+00:00,2018-10-16 16:33:08+00:00,3,3,1,1,6,0,1,0,,0,0.0,0.0,1
+4835,v2.20.0,nateprewitt,2018-10-17 15:55:17+00:00,2018-10-18 15:44:50+00:00,88,102,20,4,2,1,20,1,Merge pull request #4861 from altendky/patch-1,8,4.0,0.5,0
+4839,Reverting redirect examples back to intended URLs,rabdill,2018-10-20 21:56:10+00:00,2018-10-20 23:36:10+00:00,3,3,1,1,3,0,1,0,,0,0.0,0.0,1
+4851,proper handling for default ports in auth stripping,nateprewitt,2018-10-29 06:34:28+00:00,2018-10-29 12:48:37+00:00,24,2,3,1,3,0,3,1,Merge branch 'master' into patch-2,9,5.0,0.5555555555555556,0
+4853,Incorrect ValueError Message on ~requests.utils.from_key_val_list comments,mainanick,2018-10-29 19:56:51+00:00,2018-10-30 06:13:57+00:00,1,1,1,3,1,0,1,0,,0,0.0,0.0,1
+4861,Set iter_lines() decode_unicode default to False,altendky,2018-11-06 17:36:12+00:00,2018-11-09 20:44:35+00:00,1,1,1,2,3,0,1,0,,0,0.0,0.0,1
+4869,Set up CI with Azure Pipelines,kaylangan,2018-11-12 19:27:56+00:00,2018-11-13 12:11:50+00:00,56,0,2,2,9,0,2,1,fix coverage,0,0.0,0.0,1
+4870,Delete appveyor.yml,kennethreitz,2018-11-13 12:27:45+00:00,2018-11-13 12:51:25+00:00,0,57,1,1,0,0,1,0,,0,0.0,0.0,1
+4868,Add Python 3.7 to tox test matrix,jdufresne,2018-11-11 20:02:36+00:00,2018-11-13 12:51:37+00:00,1,1,1,1,1,0,1,0,,13,8.0,0.6153846153846154,0
+4867,Simplify tox.ini,jdufresne,2018-11-11 19:55:31+00:00,2018-11-13 12:52:07+00:00,0,1,1,1,1,0,1,0,,14,8.0,0.5714285714285714,0
+4874,Add build badge for Azure Pipelines,kaylangan,2018-11-14 15:27:39+00:00,2018-11-14 15:33:07+00:00,1,0,1,1,0,0,1,0,,1,1.0,1.0,0
+4898,revert azure pipeline changes,nateprewitt,2018-12-10 04:29:49+00:00,2018-12-10 04:31:10+00:00,399,50,8,1,1,0,8,1,Merge pull request #4940 from sloria/patch-2,10,6.0,0.6,0
+4889,Bumped maximum version of idna,alex,2018-12-04 19:16:36+00:00,2018-12-10 05:41:15+00:00,1,1,1,1,12,1,1,0,,0,0.0,0.0,1
+4901,v2.21.0,nateprewitt,2018-12-10 15:35:41+00:00,2018-12-10 15:36:34+00:00,9,2,2,1,0,0,2,0,,11,7.0,0.6363636363636364,0
+4910,"get(), request(): fix documentation of 'params'",moy,2018-12-13 14:57:21+00:00,2018-12-13 21:34:11+00:00,2,2,1,1,0,0,1,1,[fix] fix failing doctests in requests/*,1,1.0,1.0,0
+4936,Fix typo,ofek,2019-01-12 23:33:07+00:00,2019-01-12 23:54:22+00:00,2,2,1,1,0,0,1,1,Merge branch 'master' into patch-1,1,0.0,0.0,0
+4915,Normalize percent-encoded bytes before comparison,sethmlarson,2018-12-23 21:54:59+00:00,2019-01-21 13:58:33+00:00,13,4,4,5,8,1,4,1,Merge pull request #4940 from sloria/patch-2,0,0.0,0.0,1
+4940,Remove sudo: from .travis.yml,sloria,2019-01-17 01:59:35+00:00,2019-01-21 18:50:28+00:00,1,3,1,2,2,0,1,0,,0,0.0,0.0,1
+4960,docs: correct error in 'merge_environment_settings' usage,andrewbonney,2019-02-04 13:30:48+00:00,2019-02-04 15:22:41+00:00,1,1,1,1,1,0,1,1,Merge branch 'master' into patch-1,0,0.0,0.0,1
+5066,[doc website] Add a nice search experience,s-pace,2019-04-23 05:52:33+00:00,2019-04-23 12:23:58+00:00,42,1,2,2,1,0,2,1,Merge branch 'master' into patch-1,0,0.0,0.0,1
+5062,"docs: Correct the spelling of ""maintenance""",alexwlchan,2019-04-20 20:07:40+00:00,2019-04-27 13:12:10+00:00,1,1,1,1,0,0,1,1,Merge branch 'master' into patch-1,1,0.0,0.0,0
+5034,"Add `requests-async` link to ""non-blocking"" docs.",lovelydinosaur,2019-03-27 10:09:40+00:00,2019-04-27 13:13:43+00:00,2,1,1,1,0,0,1,1,Merge pull request #5141 from minho42/Fix-typos,0,0.0,0.0,1
+5082,Linked contribution information in README,zurbrugc,2019-05-09 18:40:04+00:00,2019-05-09 21:37:33+00:00,5,4,1,1,1,0,1,1,Merge pull request #5054 from imikay/patch-1,0,0.0,0.0,1
+5054,Add import statement to README example,imikay,2019-04-11 11:03:53+00:00,2019-05-09 21:38:20+00:00,1,0,1,2,0,5,1,0,,0,0.0,0.0,1
+5092,v2.22.0,nateprewitt,2019-05-15 19:47:07+00:00,2019-05-16 05:12:48+00:00,383,280,7,3,3,0,7,1,Merge pull request #5141 from minho42/Fix-typos,12,7.0,0.5833333333333334,0
+5088,Linked a GitHub tutorial regarding pull requests in README,zurbrugc,2019-05-14 18:36:16+00:00,2019-05-16 05:20:46+00:00,1,1,1,3,1,0,1,0,,1,1.0,1.0,0
+5099,Print the type of the password instead of the password itself,petar-iv,2019-05-20 07:00:57+00:00,2019-05-20 15:35:41+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+5108,Removed py34 from tox.ini.,atombrella,2019-06-03 06:46:22+00:00,2019-06-03 14:01:03+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+5127,Document that `request.head` defaults `allow_redirects` to `False`,Unit03,2019-07-01 19:42:01+00:00,2019-07-12 00:18:43+00:00,3,1,1,1,0,1,1,1,Merge pull request #4987 from aless10/master,0,0.0,0.0,1
+5142,Improve docs,dullbananas,2019-07-20 22:35:03+00:00,2019-07-21 03:57:01+00:00,11,2,4,5,0,0,4,1,Merge pull request #4976 from eduardomourar/feature/strip-utf8-bom,0,0.0,0.0,1
+5141,Fix typos,minho42,2019-07-19 15:46:51+00:00,2019-07-23 16:53:22+00:00,2,2,2,1,0,0,2,1,Merge branch 'master' into patch-1,0,0.0,0.0,1
+5145,Add missing backtick,dullbananas,2019-07-25 02:36:00+00:00,2019-07-29 16:06:12+00:00,1,1,1,2,1,0,1,1,Merge pull request #4987 from aless10/master,1,1.0,1.0,0
+5167,[IMPROVEMENT] Update monthly download count,aadibajpai,2019-08-19 16:45:59+00:00,2019-08-19 17:54:32+00:00,1,1,1,1,3,0,1,1,Change documentation website to requests.readthedocs.io (#5236),0,0.0,0.0,1
+5164,fix codecov logo in readme,dschaller,2019-08-16 01:45:56+00:00,2019-08-19 17:55:41+00:00,1,1,1,1,0,0,1,1,Change documentation website to requests.readthedocs.io (#5236),0,0.0,0.0,1
+5160,Updated references to previous requests/requests GitHub path,nihaals,2019-08-13 22:00:51+00:00,2019-08-19 22:57:16+00:00,44,44,17,1,3,0,17,1,Change documentation website to requests.readthedocs.io (#5236),0,0.0,0.0,1
+5119,Update sessions.py,alanyee,2019-06-24 17:13:07+00:00,2019-08-20 04:11:23+00:00,3,3,1,2,3,4,1,1,Merge pull request #4987 from aless10/master,0,0.0,0.0,1
+5049,Support pytest 4,hroncok,2019-04-08 16:12:59+00:00,2019-08-20 04:12:59+00:00,3,2,2,1,3,0,2,1,Change documentation website to requests.readthedocs.io (#5236),0,0.0,0.0,1
+5105,Update sessions.py,alanyee,2019-05-29 18:49:53+00:00,2019-08-20 04:14:37+00:00,1,5,1,1,1,0,1,1,Merge pull request #4987 from aless10/master,1,1.0,1.0,0
+5128,Use urllib for chunked requests,lmvlmv,2019-07-02 10:13:18+00:00,2019-08-20 04:15:45+00:00,13,58,1,3,6,0,1,0,,0,0.0,0.0,1
+5087,#4965 Fix,luckydenis,2019-05-14 09:18:13+00:00,2019-08-20 04:16:35+00:00,63,4,3,7,1,0,3,1,Merge pull request #5076 from myrheimb/patch-1,0,0.0,0.0,1
+5018,Remove duplicate config,hugovk,2019-03-10 15:08:28+00:00,2019-08-20 04:17:54+00:00,1,14,1,3,2,0,1,0,,0,0.0,0.0,1
+4978,Fix double image request,sayzlim,2019-02-12 13:26:21+00:00,2019-08-20 04:21:13+00:00,63,228,4,2,2,0,4,1,Change documentation website to requests.readthedocs.io (#5236),4,3.0,0.75,0
+4999,Add project URLs with links to source code and docs,greysteil,2019-02-23 13:26:00+00:00,2019-08-20 04:21:32+00:00,4,0,1,1,1,0,1,1,Change documentation website to requests.readthedocs.io (#5236),0,0.0,0.0,1
+4922,Remove unnecessary compat shim for OrderedDict,jdufresne,2018-12-29 15:43:49+00:00,2019-08-20 04:22:33+00:00,13,7,5,1,4,0,5,1,Merge pull request #4987 from aless10/master,15,8.0,0.5333333333333333,0
+4983,Add trusted domains,jaketreacher,2019-02-15 04:21:37+00:00,2019-08-20 04:23:53+00:00,8,1,1,1,2,0,1,1,Merge pull request #4987 from aless10/master,0,0.0,0.0,1
+4996,Add link to user-agent documentation,sblondon,2019-02-22 10:04:41+00:00,2019-08-20 04:24:09+00:00,2,1,1,2,0,0,1,1,Change documentation website to requests.readthedocs.io (#5236),0,0.0,0.0,1
+4987,[fix] fix failing doctests in requests/*,aless10,2019-02-17 18:47:44+00:00,2019-08-20 04:25:51+00:00,18,9,8,15,1,3,8,1,Change documentation website to requests.readthedocs.io (#5236),0,0.0,0.0,1
+4976,Fix for response with UTF-8 BOM,eduardomourar,2019-02-09 21:30:47+00:00,2019-08-20 04:27:00+00:00,39,0,4,4,10,0,4,1,Merge pull request #5076 from myrheimb/patch-1,0,0.0,0.0,1
+5076,Possible fix for #4945?,myrheimb,2019-04-30 16:37:54+00:00,2019-08-20 04:38:22+00:00,1,1,1,1,1,0,1,0,,0,0.0,0.0,1
+5171,Fix typo,MFStapert,2019-08-20 17:26:24+00:00,2019-08-20 17:28:49+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+5197,Fix misspelling,peterschutt,2019-09-18 11:09:41+00:00,2019-09-19 15:29:30+00:00,1,1,1,1,1,0,1,1,Change documentation website to requests.readthedocs.io (#5236),0,0.0,0.0,1
+5195,Fix formatting of status code example,tesuji,2019-09-17 12:36:50+00:00,2019-09-19 15:32:14+00:00,10,7,1,1,0,0,1,0,,0,0.0,0.0,1
+5208,Part II: The Principle of Polarity,kennethreitz,2019-09-23 18:27:34+00:00,2019-09-23 20:08:41+00:00,15,20,6,7,1,1,6,1,Change documentation website to requests.readthedocs.io (#5236),1,0.0,0.0,0
+5207,Test on Python 3.8 beta,hugovk,2019-09-23 14:29:26+00:00,2019-09-26 22:06:30+00:00,3,2,2,3,0,0,2,0,,1,0.0,0.0,0
+5216,documentation link fixed,Leetcore,2019-09-29 16:11:17+00:00,2019-09-30 09:52:29+00:00,1,1,1,1,2,0,1,1,Change documentation website to requests.readthedocs.io (#5236),0,0.0,0.0,1
+5243,Test on Python 3.8 final,hugovk,2019-10-22 15:47:28+00:00,2019-10-25 02:32:26+00:00,1,1,1,1,0,0,1,0,,2,0.0,0.0,0
+5237,Update translation links from http -> https,chmreid,2019-10-19 00:35:38+00:00,2019-10-25 02:46:05+00:00,14,14,2,2,0,0,2,1,Change documentation website to requests.readthedocs.io (#5236),0,0.0,0.0,1
+5236,Change documentation website to requests.readthedocs.io,ssbarnea,2019-10-18 16:29:33+00:00,2019-10-25 03:02:55+00:00,16,16,11,3,1,0,11,1,Add Python 2 support entry in FAQ (#5303),0,0.0,0.0,1
+5250,Fix link to requests-threads in community/recommended doc,MasterOdin,2019-10-30 19:16:01+00:00,2019-11-23 02:50:54+00:00,1,1,1,1,1,0,1,0,,0,0.0,0.0,1
+5306,Update supported Python versions,hugovk,2020-01-06 09:29:48+00:00,2020-01-09 17:06:48+00:00,2,10,2,1,0,0,2,1,fix README typo,3,0.0,0.0,0
+5292,Update example code in README.md,jkooker,2019-12-17 23:07:39+00:00,2020-01-09 17:26:43+00:00,1,1,1,2,0,0,1,1,fix README typo,0,0.0,0.0,1
+5303,Add Python 2 support entry in FAQ,brainwane,2020-01-01 21:33:08+00:00,2020-01-09 17:55:20+00:00,12,0,1,4,3,0,1,0,,0,0.0,0.0,1
+5206,Tidy community files,hugovk,2019-09-23 11:23:31+00:00,2020-01-19 15:41:10+00:00,4,7,3,3,0,0,3,0,,4,1.0,0.25,0
+5193,Test under PyPy3,johnthagen,2019-09-13 00:38:38+00:00,2020-01-21 17:00:51+00:00,5,1,2,9,17,6,2,0,,0,0.0,0.0,1
+5325,Change link for pip installation instructions,nawatts,2020-01-25 17:15:41+00:00,2020-01-25 18:19:35+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+5326,Fix intersphinx_mapping config for Python standard library,nawatts,2020-01-25 23:32:59+00:00,2020-02-01 00:24:53+00:00,1,1,1,1,0,0,1,0,,1,0.0,0.0,0
+5346,Update pipenv links in README and installation guide.,stock1218,2020-02-17 21:53:32+00:00,2020-02-18 05:44:34+00:00,2,2,2,2,0,0,2,1,fix README typo,0,0.0,0.0,1
+5276,Fix the syntax highlighting in the example,ZhukovAlexander,2019-11-27 14:09:40+00:00,2020-02-18 07:19:39+00:00,2,2,1,3,0,0,1,0,,0,0.0,0.0,1
+5342,Limit to major releases rather than second point.,cjw296,2020-02-17 17:09:06+00:00,2020-02-18 14:58:27+00:00,3,3,1,2,7,7,1,0,,0,0.0,0.0,1
+5110,Remove an obsolete attribute from Session.__attrs__,nedbat,2019-06-04 20:05:37+00:00,2020-02-18 17:17:22+00:00,1,1,1,2,3,0,1,0,,0,0.0,0.0,1
+5353,Revert incomplete PRs,nateprewitt,2020-02-18 23:16:02+00:00,2020-02-19 00:56:40+00:00,61,109,6,3,0,0,6,1,fix raise_for_status docstring (#5293),13,8.0,0.6153846153846154,0
+5356,v2.23.0,nateprewitt,2020-02-19 18:29:54+00:00,2020-02-19 18:44:28+00:00,19,3,2,1,0,0,2,0,,14,9.0,0.6428571428571429,0
+5338,Removed pass from the warnings and fixed the docstrings,rednafi,2020-02-17 07:36:47+00:00,2020-02-23 17:56:46+00:00,3,6,1,2,1,0,1,0,,0,0.0,0.0,1
+5369,Updating disclosure contact info,nateprewitt,2020-02-27 04:51:32+00:00,2020-02-27 18:05:07+00:00,6,4,1,1,0,0,1,0,,15,9.0,0.6,0
+5370,Also update GitHub's Security Disclosure document,sethmlarson,2020-02-28 03:15:32+00:00,2020-02-28 03:33:10+00:00,8,8,1,1,1,0,1,0,,1,1.0,1.0,0
+5336,Remove explicit unicode literal in README.md and doc,aless10,2020-02-13 21:44:12+00:00,2020-03-25 19:44:52+00:00,17,17,4,14,0,3,4,1,Fix typo in README (#5468),1,1.0,1.0,0
+5403,fix README typo,dtrodrigues,2020-03-28 23:26:27+00:00,2020-04-03 20:59:18+00:00,1,1,1,1,1,0,1,1,Fix typo in README (#5468),0,0.0,0.0,1
+5443,Don't use pyOpenSSL unless no SNI is detected,sethmlarson,2020-04-30 13:57:50+00:00,2020-05-01 23:33:52+00:00,21,8,2,2,18,2,2,0,,2,1.0,0.5,0
+5305,Fix test_conflicting_post_params to work on pytest 5,hroncok,2020-01-02 15:55:08+00:00,2020-05-09 04:58:04+00:00,4,2,1,3,3,0,1,0,,1,1.0,1.0,0
+5293,fix raise_for_status docstring,graingert,2019-12-18 09:13:37+00:00,2020-05-09 05:08:51+00:00,1,1,1,2,1,0,1,0,,0,0.0,0.0,1
+5492,Remove what appears to be an un-needed call to self.resolve_redirects when not following redirects as part of creating a request's history.,dbaxa,2020-06-15 10:15:28+00:00,2020-06-15 14:44:38+00:00,6,4,1,1,3,0,1,0,,0,0.0,0.0,1
+5468,Fix typo in README,kkirsche,2020-05-21 13:44:07+00:00,2020-06-15 15:23:17+00:00,1,1,1,2,0,0,1,0,,0,0.0,0.0,1
+5495,Update number of dependents on requests,bharatr21,2020-06-15 17:19:00+00:00,2020-06-15 19:56:08+00:00,1,1,1,4,0,4,1,0,,0,0.0,0.0,1
+5496,Avoid an unnecessary computation of the length of data for non-stream requests (which determine content-length based upon body content).,dbaxa,2020-06-16 10:55:28+00:00,2020-06-17 15:21:38+00:00,5,5,1,1,6,0,1,0,,1,0.0,0.0,0
+5500,v2.24.0,nateprewitt,2020-06-17 15:35:50+00:00,2020-06-17 15:50:26+00:00,14,4,3,2,1,0,3,0,,16,9.0,0.5625,0
+5475,Google App Engine,KartikChugh,2020-05-29 02:23:52+00:00,2020-06-17 20:09:35+00:00,2,2,2,4,1,0,2,0,,0,0.0,0.0,1
+5505,Clarify that PreparedRequests should not be manually created,ollien,2020-06-19 02:08:33+00:00,2020-06-19 16:04:22+00:00,3,1,1,1,0,0,1,0,,0,0.0,0.0,1
+5509,Docs: list CURL_CA_BUNDLE as supported,bbodenmiller,2020-06-20 06:40:44+00:00,2020-07-24 04:57:31+00:00,1,0,1,4,0,2,1,0,,0,0.0,0.0,1
+5437,docs: make danger of verify=False clearer,elithrar,2020-04-25 19:07:50+00:00,2020-08-17 02:31:06+00:00,19,1,2,3,2,6,2,0,,0,0.0,0.0,1
+5562,Cleanup documentation and README,sethmlarson,2020-08-18 21:47:55+00:00,2020-08-18 22:14:01+00:00,78,512,24,6,0,0,24,0,,3,1.0,0.3333333333333333,0
+5567,Update index.rst to mention support Python 3.5+,girisagar46,2020-08-26 00:34:25+00:00,2020-08-26 00:50:14+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+5570,Apply the Apache-2.0 license correctly,ajorg-aws,2020-08-27 16:50:29+00:00,2020-08-27 18:09:02+00:00,174,10,2,1,0,0,2,0,,0,0.0,0.0,1
+5584,Update kens github,Visgean,2020-09-11 15:02:28+00:00,2020-09-11 15:36:21+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+5605,Remove leftover HISTORY.md file read from setup.py,Ae-Mc,2020-09-29 14:54:58+00:00,2020-09-29 15:36:31+00:00,0,2,1,1,0,0,1,1,Merge pull request #5688 from dan-blanchard/patch-1,0,0.0,0.0,1
+5608,Add official Python 3.8 support on Appveyor,abdullahselek,2020-09-30 19:56:20+00:00,2020-09-30 20:35:12+00:00,5,0,1,1,0,0,1,0,,0,0.0,0.0,1
+5611,Create codeql-analysis.yml,sigmavirus24,2020-10-01 14:19:41+00:00,2020-10-02 22:10:53+00:00,66,0,1,2,1,7,1,0,,0,0.0,0.0,1
+5614,small typo corrected.,smstong,2020-10-05 00:45:59+00:00,2020-10-05 18:15:44+00:00,1,1,1,1,0,0,1,1,Merge pull request #5594 from icfly2/patch-1,0,0.0,0.0,1
+5643,Respect the NETRC environment variable,tarmath,2020-10-30 17:20:32+00:00,2020-11-01 16:52:02+00:00,10,3,2,1,1,12,2,1,"updated `get_encoding_from_headers` to return utf-8 if the content type is set to application/json, following RFC 4627.",0,0.0,0.0,1
+5652,Move CI to Github Actions,nateprewitt,2020-11-10 22:27:27+00:00,2020-11-11 18:29:14+00:00,48,1118,10,2,3,2,10,1,Merge pull request #5663 from hugovk/patch-1,17,9.0,0.5294117647058824,0
+5651,v2.25.0,nateprewitt,2020-11-10 20:38:36+00:00,2020-11-11 19:55:51+00:00,25,6,4,1,4,0,4,1,Merge pull request #5688 from dan-blanchard/patch-1,18,10.0,0.5555555555555556,0
+5659,Remove reference to development philosophy,nateprewitt,2020-11-16 18:59:45+00:00,2020-11-16 19:19:06+00:00,2,5,1,1,0,0,1,0,,19,11.0,0.5789473684210527,0
+5594,Update advanced.rst,icfly2,2020-09-23 11:20:12+00:00,2020-11-17 01:31:40+00:00,2,2,1,1,0,0,1,1,Fix typo request -> requests,0,0.0,0.0,1
+5663,Pin GHA to Ubuntu 18.04,hugovk,2020-11-18 07:05:01+00:00,2020-11-18 16:32:03+00:00,1,1,1,1,0,0,1,0,,5,1.0,0.2,0
+5672,Fix broken link to Kenneth Rietz page,sivaraam,2020-11-28 18:09:19+00:00,2020-11-28 18:21:03+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+5673,updated `get_encoding_from_headers` to return utf-8 if the content type is set to application/json,jjmaldonis,2020-11-29 18:00:53+00:00,2020-11-29 18:19:16+00:00,4,0,1,1,1,0,1,0,,0,0.0,0.0,1
+5670,Proxy related doc updates,smarie,2020-11-27 11:06:11+00:00,2020-12-04 19:38:17+00:00,47,5,2,4,8,0,2,1,Fix typo,0,0.0,0.0,1
+5684,"update sponsorship link, resolves #5683",ewdurbin,2020-12-09 13:52:50+00:00,2020-12-09 14:03:58+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+5688,Upgrade to chardet 4.x,dan-blanchard,2020-12-11 01:26:30+00:00,2020-12-14 17:29:11+00:00,3,5,2,1,4,0,2,0,,0,0.0,0.0,1
+5694,fixed a typo in module doc string.,shouro,2020-12-14 23:44:12+00:00,2020-12-14 23:49:50+00:00,2,2,1,2,0,0,1,0,,0,0.0,0.0,1
+5695,v2.25.1,nateprewitt,2020-12-16 17:56:20+00:00,2020-12-16 19:34:27+00:00,13,2,2,1,0,0,2,0,,20,11.0,0.55,0
+5723,Format c_rehash,bbodenmiller,2021-01-20 01:28:08+00:00,2021-01-20 14:58:36+00:00,1,1,1,1,0,0,1,1,Fix typo,1,0.0,0.0,0
+5727,Fix typo error,xiaojueguan,2021-01-22 13:34:35+00:00,2021-01-22 13:41:39+00:00,1,1,1,1,0,0,1,1,Fix typo,0,0.0,0.0,1
+5681,5677: Rebuild proxies on Session#send,mateusduboli,2020-12-08 17:39:44+00:00,2021-01-24 22:59:47+00:00,40,1,2,1,0,4,2,0,,0,0.0,0.0,1
+5755,Provide directions for cloning repository despite malformed commits,pdmccormick,2021-02-17 20:44:27+00:00,2021-02-17 21:37:02+00:00,16,0,1,1,0,0,1,1,grammar fix (#5791),0,0.0,0.0,1
+5761,Fix typo,andrewmwhite,2021-02-24 17:10:51+00:00,2021-02-24 17:19:48+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+5777,quickstart.rst: r.json() can raise JSONDecodeError on Py3,cclauss,2021-03-18 09:06:28+00:00,2021-03-18 14:36:35+00:00,9,2,2,3,1,2,2,0,,0,0.0,0.0,1
+5778,Cleanup redundant allow_redirects kwargs in api,laggardkernel,2021-03-19 07:38:02+00:00,2021-03-19 16:44:20+00:00,0,2,1,1,0,0,1,0,,0,0.0,0.0,1
+5780,Update setup.py,armangido,2021-03-19 18:38:13+00:00,2021-03-19 22:09:29+00:00,0,1,1,1,1,0,1,0,,0,0.0,0.0,1
+5791,Grammar fix in description,cocobennett,2021-04-10 02:01:13+00:00,2021-04-11 16:25:49+00:00,1,1,1,1,2,0,1,0,,0,0.0,0.0,1
+5810,Throw value error when serializing JSON object with NaN value,tallalnparis4ev,2021-05-04 10:37:03+00:00,2021-05-06 18:18:58+00:00,17,3,3,5,0,2,3,1,Fix inconsistent exception type in response.json() method (#5856),0,0.0,0.0,1
+5811,Updated to new be-cordial-or-be-on-your-way URL and CoC now references Python Community CoC,MarkCBell,2021-05-06 19:37:35+00:00,2021-05-07 16:54:38+00:00,6,3,2,2,6,0,2,0,,0,0.0,0.0,1
+5835,Fix GitHub links,fmarier,2021-06-01 03:29:22+00:00,2021-06-01 04:23:54+00:00,3,3,2,1,3,0,2,1,Fix broken link to adapters essay (#5899),0,0.0,0.0,1
+5859,✅ Fix the tests suite on master by pinning Flask,Ousret,2021-07-06 20:04:55+00:00,2021-07-06 20:39:50+00:00,1,0,1,1,0,0,1,0,,0,0.0,0.0,1
+5797,Switch LGPL'd chardet for MIT licensed charset_normalizer,ashb,2021-04-22 08:25:50+00:00,2021-07-06 23:55:02+00:00,119,27,10,1,105,25,10,1,fix minor typos (#5934),0,0.0,0.0,1
+5707,Avoid zip extract racing condition by using read+write instead extract,gaborbernat,2020-12-24 19:20:04+00:00,2021-07-07 00:14:52+00:00,18,3,1,1,2,1,1,1,fix minor typos (#5934),0,0.0,0.0,1
+5783,Add support for brotli decoding,dilyanpalauzov,2021-03-29 18:53:59+00:00,2021-07-07 13:16:28+00:00,15,1,4,4,8,5,4,1,fix minor typos (#5934),0,0.0,0.0,1
+5711,bump idna has version 3.0 was released,naorlivne,2021-01-01 12:31:47+00:00,2021-07-07 13:25:20+00:00,2,1,1,3,18,1,1,0,,0,0.0,0.0,1
+5867,Disable requests[security] and remove 3.5 support references,nateprewitt,2021-07-09 19:09:52+00:00,2021-07-09 19:40:55+00:00,14,8,7,1,0,0,7,1,fix minor typos (#5934),21,11.0,0.5238095238095238,0
+5869,Stop abusing pytest-httpbin to test commonName support,pquentin,2021-07-12 07:24:18+00:00,2021-07-12 14:44:43+00:00,39,4,3,1,1,0,3,1,Fix inconsistent exception type in response.json() method (#5856),0,0.0,0.0,1
+5868,v2.26.0,nateprewitt,2021-07-09 19:45:56+00:00,2021-07-13 14:52:02+00:00,24,7,2,1,1,0,2,1,fix minor typos (#5934),22,12.0,0.5454545454545454,0
+5877,Update api.rst,steveberdy,2021-07-15 15:48:27+00:00,2021-07-16 18:06:42+00:00,2,2,1,1,0,0,1,0,,0,0.0,0.0,1
+5821,Update advanced.rst,Akay7,2021-05-18 15:07:30+00:00,2021-07-18 10:59:38+00:00,1,1,1,3,0,4,1,1,fix minor typos (#5934),0,0.0,0.0,1
+5881,docs: Update the Red Hat vulnerabilities contact,jeremycline,2021-07-19 13:05:36+00:00,2021-07-19 16:44:02+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+5856,Fix inconsistent exception type in response.json() method,steveberdy,2021-07-03 21:08:32+00:00,2021-07-26 15:56:44+00:00,47,18,7,28,8,41,7,1,fix minor typos (#5934),1,0.0,0.0,0
+5890,Fix creating non-listening sockets in tests on some platforms,mgorny,2021-07-28 08:48:27+00:00,2021-07-28 16:23:08+00:00,3,1,1,1,1,0,1,0,,0,0.0,0.0,1
+5851,Fix extract_zipped_paths infinite loop when provided invalid unc path,tl-hbk,2021-06-30 21:29:35+00:00,2021-08-03 00:40:34+00:00,8,0,2,1,0,2,2,1,fix minor typos (#5934),0,0.0,0.0,1
+5899,Fix broken link to adapters essay,itsadok,2021-08-04 05:39:12+00:00,2021-08-04 05:58:51+00:00,1,1,1,1,0,0,1,1,fix minor typos (#5934),0,0.0,0.0,1
+5906,Test verifying that ChunkedEncodingError is raised on an invalid Transfer-Encoding: chunked response.,theGOTOguy,2021-08-20 09:22:40+00:00,2021-08-25 02:00:17+00:00,22,0,1,1,1,0,1,0,,0,0.0,0.0,1
+5910,Formatting,verhovsky,2021-08-25 16:16:07+00:00,2021-08-25 16:48:30+00:00,2,2,1,1,0,0,1,0,,0,0.0,0.0,1
+5909,Add thread locker workflow,sigmavirus24,2021-08-25 00:23:19+00:00,2021-08-25 18:21:36+00:00,15,0,1,1,0,3,1,1,Fix syntax error in lock action (#5912),1,0.0,0.0,0
+5911,Shorten the window before we lock threads,sigmavirus24,2021-08-25 18:24:18+00:00,2021-08-25 18:44:57+00:00,2,0,1,1,0,0,1,1,Fix syntax error in lock action (#5912),2,1.0,0.5,0
+5912,Fix syntax error in lock action,nateprewitt,2021-08-26 00:38:55+00:00,2021-08-26 01:04:43+00:00,3,2,1,1,0,0,1,0,,23,13.0,0.5652173913043478,0
+5913,Update codeql branch target,nateprewitt,2021-08-26 05:59:23+00:00,2021-08-26 10:58:35+00:00,2,2,1,1,0,0,1,0,,24,13.0,0.5416666666666666,0
+5914,Appropriately handle urllib3's InvalidHeader exception,nateprewitt,2021-08-27 00:55:45+00:00,2021-08-27 01:11:30+00:00,30,1,2,1,0,0,2,0,,25,13.0,0.52,0
+5916,Time out requests' tests after 10 minutes.,theGOTOguy,2021-08-27 18:19:09+00:00,2021-08-27 18:49:51+00:00,1,1,1,1,0,0,1,0,,1,0.0,0.0,0
+5454,doc: Include rmax github username,rmax,2020-05-12 22:33:05+00:00,2021-08-28 04:23:46+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+5923,General doc updates,nateprewitt,2021-09-02 03:20:46+00:00,2021-09-02 15:53:46+00:00,20,10,8,1,0,0,8,1,fix minor typos (#5934),26,13.0,0.5,0
+5928,Add support for 3.10,nateprewitt,2021-09-03 16:41:45+00:00,2021-09-04 02:03:16+00:00,3,2,3,1,0,3,3,0,,27,14.0,0.5185185185185185,0
+5930,Update lock-issues.yml,sigmavirus24,2021-09-07 23:18:14+00:00,2021-09-08 00:00:31+00:00,1,1,1,1,0,0,1,0,,3,2.0,0.6666666666666666,0
+5934,fix: minor typos,kkirsche,2021-09-15 11:33:32+00:00,2021-09-15 11:43:13+00:00,5,5,3,1,0,0,3,0,,1,0.0,0.0,0
+5940,Don't mention pip as the reason for supporting py2,verhovsky,2021-09-21 22:34:57+00:00,2021-09-21 23:22:12+00:00,1,4,1,2,3,0,1,0,,1,0.0,0.0,0
+5956,Add doc build requirements for RTD,nateprewitt,2021-10-09 21:43:23+00:00,2021-10-09 22:03:34+00:00,3,0,1,1,4,0,1,0,,28,14.0,0.5,0
+5965,Update Bug_report.md,alanyee,2021-10-21 18:00:47+00:00,2021-10-21 18:06:33+00:00,9,7,1,1,0,0,1,0,,2,2.0,1.0,0
+5924,Refactor rebuild_proxies to separate resolution and auth handling,nateprewitt,2021-09-02 06:01:26+00:00,2021-11-24 19:21:01+00:00,45,18,3,1,2,7,3,1,Merge pull request #6028 from nateprewitt/prox_auth_fix,29,14.0,0.4827586206896552,0
+5990,Skip the test requiring trustme when it is not available,mgorny,2021-11-27 09:35:55+00:00,2021-11-28 01:20:18+00:00,4,1,1,1,6,0,1,0,,1,0.0,0.0,0
+5410,Remove shebang from nonexecutable script,hrnciar,2020-04-02 08:50:39+00:00,2021-11-28 14:32:29+00:00,0,1,1,1,0,0,1,0,,0,0.0,0.0,1
+5239,Catch AttributeError in utils.super_len,dimbleby,2019-10-21 11:55:23+00:00,2021-11-28 20:03:31+00:00,22,3,3,2,1,0,3,1,Merge pull request #6028 from nateprewitt/prox_auth_fix,0,0.0,0.0,1
+5391,Send only one Host header in chunked request,hodbn,2020-03-17 22:01:53+00:00,2021-11-29 15:58:32+00:00,52,1,3,2,4,1,3,0,,0,0.0,0.0,1
+5993,Run tox in parallel using -p instead of detox,davisagli,2021-11-30 03:25:51+00:00,2021-11-30 14:07:59+00:00,1,1,1,1,2,0,1,0,,0,0.0,0.0,1
+5998,Update README.md,vashisthabhinav,2021-12-05 07:40:13+00:00,2021-12-05 10:52:10+00:00,1,1,1,4,1,0,1,0,,0,0.0,0.0,1
+6018,Update basic auth example,nateprewitt,2021-12-29 01:09:40+00:00,2021-12-29 01:38:35+00:00,3,2,1,1,0,0,1,0,,30,15.0,0.5,0
+6017,Fix erroneous use of 'schema' instead of 'scheme',nateprewitt,2021-12-29 00:46:24+00:00,2021-12-29 01:39:08+00:00,3,3,2,1,0,0,2,1,Fix inconsistent exception for JSONDecode error (#6097),31,15.0,0.4838709677419355,0
+5414,Raise InvalidUrl if host starts with '.' character.,mondeja,2020-04-05 16:52:04+00:00,2021-12-29 01:39:36+00:00,3,1,2,1,0,0,2,1,Fix inconsistent exception for JSONDecode error (#6097),0,0.0,0.0,1
+5917,Move from urlparse to parse_url for prepending schemes,nateprewitt,2021-08-27 19:10:24+00:00,2021-12-29 13:31:40+00:00,16,6,2,1,3,3,2,1,Merge pull request #6028 from nateprewitt/prox_auth_fix,32,16.0,0.5,0
+6020,Update 3.10-dev to 3.10 and add pypy-3.7 in CI,nateprewitt,2021-12-29 05:36:12+00:00,2021-12-29 13:32:11+00:00,3,1,1,1,0,0,1,0,,33,17.0,0.5151515151515151,0
+5894,Prevent unnecessary should_bypass_proxies checks in rebuild_proxies,dbaxa,2021-07-29 02:56:36+00:00,2021-12-29 17:06:05+00:00,1,2,1,1,10,5,1,1,Merge pull request #6028 from nateprewitt/prox_auth_fix,2,0.0,0.0,0
+5382,Make the `data` vs `json` parameters more clear,gdubicki,2020-03-09 19:29:32+00:00,2021-12-29 17:46:21+00:00,6,4,1,1,3,0,1,0,,0,0.0,0.0,1
+6022,General cleanup for 2.27.0,nateprewitt,2021-12-29 19:02:13+00:00,2021-12-29 22:29:09+00:00,14,10,3,1,0,0,3,1,Fix doc link,34,17.0,0.5,0
+6019,v2.27.0,nateprewitt,2021-12-29 04:55:15+00:00,2022-01-03 14:59:11+00:00,48,8,2,1,2,0,2,0,,35,18.0,0.5142857142857142,0
+6028,Fix auth parsing for proxies,nateprewitt,2022-01-04 15:32:52+00:00,2022-01-04 16:04:25+00:00,12,0,2,1,0,0,2,0,,36,18.0,0.5,0
+6029,v2.27.1,nateprewitt,2022-01-04 16:27:44+00:00,2022-01-05 15:35:05+00:00,10,2,2,1,1,0,2,0,,37,18.0,0.4864864864864865,0
+6035,Adding missing dependancies for testing,notAutomne,2022-01-06 14:32:42+00:00,2022-01-06 17:58:00+00:00,1,1,2,2,3,0,2,1,Fix jinja,0,0.0,0.0,1
+6037,Start testing on 3.11 dev branch,nateprewitt,2022-01-07 17:29:38+00:00,2022-01-07 19:07:31+00:00,5,0,1,1,0,0,1,0,,38,18.0,0.47368421052631576,0
+6042,Disable lock-threads on forks,nateprewitt,2022-01-11 15:27:18+00:00,2022-01-11 17:42:01+00:00,1,0,1,1,0,0,1,0,,39,18.0,0.46153846153846156,0
+6036,Limit size of payload in JSONDecodeError,chyzzqo2,2022-01-07 01:02:24+00:00,2022-01-13 15:42:49+00:00,23,3,2,1,8,14,2,1,Merge pull request #6074 from nateprewitt/curl_ca_bundle,0,0.0,0.0,1
+6044,Update quickstart.rst : fixing brotlicffi link,Chavithra,2022-01-17 18:27:03+00:00,2022-01-17 18:30:24+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+5978,mention all_proxy env variable in Proxies section,sha016,2021-11-14 03:03:25+00:00,2022-02-02 18:03:26+00:00,3,2,1,2,0,0,1,0,,0,0.0,0.0,1
+6057,Wrap urllib3's SSLError as requests' SSLError,nateprewitt,2022-02-05 00:41:55+00:00,2022-02-05 18:56:05+00:00,55,5,3,1,0,0,3,1,Fix inconsistent exception for JSONDecode error (#6097),40,18.0,0.45,0
+6069,Pin markupsafe for older versions of Jinja2,nateprewitt,2022-02-19 01:38:37+00:00,2022-02-19 13:34:48+00:00,4,1,1,1,0,0,1,0,,41,19.0,0.4634146341463415,0
+6068,Reword proxies section and add warning,nateprewitt,2022-02-19 01:24:21+00:00,2022-02-19 23:04:07+00:00,13,4,1,1,0,0,1,0,,42,19.0,0.4523809523809524,0
+6074,Fix environment CA Bundle resolution,nateprewitt,2022-02-25 18:36:12+00:00,2022-02-26 13:39:28+00:00,49,6,2,1,2,0,2,1,Fix several ResourceWarnings in test_requests.py (#4766),43,19.0,0.4418604651162791,0
+6091,"Remove support for Python 2.7, 3.6 and Pypy3.6",nateprewitt,2022-03-23 00:27:13+00:00,2022-03-25 16:50:34+00:00,141,180,19,3,1,17,19,1,Fix output of test_lowlevel tests in case of timeout (#6136),44,20.0,0.45454545454545453,0
+6097,Fix inconsistent exception for JSONDecode error,nateprewitt,2022-03-28 18:17:06+00:00,2022-03-28 18:51:27+00:00,26,0,2,1,0,0,2,0,,45,21.0,0.4666666666666667,0
+6095,Add automatic code formatting to Requests,nateprewitt,2022-03-23 20:15:49+00:00,2022-04-29 19:16:58+00:00,2830,2399,39,9,1,0,39,1,Fixed warnings message to suggest using secure protocol. (#6188),46,21.0,0.45652173913043476,0
+6116,Add .git-blame-ignore-revs,nateprewitt,2022-04-29 21:21:44+00:00,2022-04-29 21:39:22+00:00,5,0,1,1,0,0,1,0,,47,22.0,0.46808510638297873,0
+4766,Fix several ResourceWarnings in test_requests.py,BoboTiG,2018-08-13 19:11:49+00:00,2022-05-11 01:04:18+00:00,44,38,1,1,4,5,1,0,,0,0.0,0.0,1
+6133,Update utils.py,davidshivaji,2022-05-13 16:10:31+00:00,2022-05-13 16:36:14+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+6144,Cleanup the docs sidebar,nateprewitt,2022-05-26 19:33:40+00:00,2022-05-26 19:45:57+00:00,0,83,2,1,0,0,2,0,,48,22.0,0.4583333333333333,0
+6149,Tolerate bad registry entries in Windows proxy settings,nateprewitt,2022-06-01 15:48:19+00:00,2022-06-01 17:36:26+00:00,34,1,2,1,1,0,2,0,,49,22.0,0.4489795918367347,0
+6150,Reduce lock thread runs to daily,nateprewitt,2022-06-01 17:35:28+00:00,2022-06-01 17:51:04+00:00,2,2,1,1,0,0,1,0,,50,22.0,0.44,0
+6136,Fix output of test_lowlevel tests in case of timeout,ogayot,2022-05-19 15:58:16+00:00,2022-06-08 16:02:42+00:00,2,1,1,1,0,0,1,0,,0,0.0,0.0,1
+6155,Run 3.11 CI on all platforms,nateprewitt,2022-06-08 04:03:55+00:00,2022-06-08 16:12:53+00:00,1,4,1,1,0,0,1,0,,51,22.0,0.43137254901960786,0
+6154,Add validation for header name,nateprewitt,2022-06-08 04:02:40+00:00,2022-06-08 18:03:56+00:00,72,62,3,1,0,0,3,0,,52,22.0,0.4230769230769231,0
+6157,Add GitHub action to automate linting,nateprewitt,2022-06-08 04:19:31+00:00,2022-06-08 19:11:11+00:00,16,0,1,2,0,2,1,0,,53,22.0,0.41509433962264153,0
+6156,v2.28.0,nateprewitt,2022-06-08 04:10:18+00:00,2022-06-09 14:42:10+00:00,26,7,2,1,0,4,2,0,,54,22.0,0.4074074074074074,0
+6179,"Update Dependency with `chardet>=3.0.2,<6`",hswong3i,2022-06-26 03:02:50+00:00,2022-06-28 02:25:59+00:00,3,3,2,1,3,0,2,0,,0,0.0,0.0,1
+6169,Allow charset normalizer >=2 and <3,frenzymadness,2022-06-20 07:39:36+00:00,2022-06-29 02:01:43+00:00,2,2,2,1,2,4,2,0,,0,0.0,0.0,1
+6170,Use yield from instead of looping yield,kkirsche,2022-06-20 13:01:10+00:00,2022-06-29 02:08:26+00:00,1,2,1,1,1,0,1,1,Fixed warnings message to suggest using secure protocol. (#6188),2,0.0,0.0,0
+6182,v2.28.1,nateprewitt,2022-06-29 03:22:56+00:00,2022-06-29 15:09:12+00:00,14,2,2,1,3,0,2,0,,55,22.0,0.4,0
+6188,Fixed warnings message to suggest using secure protocol.,slyapustin,2022-06-29 18:24:40+00:00,2022-06-29 18:41:49+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+6200,Rephrase an outdated comment mentioning Python 2.,mila,2022-07-19 09:06:14+00:00,2022-07-20 23:13:36+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+6204,Remove Python 2 mention on `chardet` behavior,DavidCain,2022-07-27 15:01:44+00:00,2022-07-27 17:22:21+00:00,2,3,1,1,1,2,1,1,Merge pull request #6234 from jaap3/patch-1,0,0.0,0.0,1
+6234,Fix CURL_CA_BUNDLE override example,jaap3,2022-09-07 07:49:28+00:00,2022-09-09 19:10:15+00:00,3,3,1,1,0,0,1,0,,0,0.0,0.0,1
+6261,Allow charset normalizer >=2 and <4,deedy5,2022-10-20 10:09:22+00:00,2022-10-20 18:26:19+00:00,4,4,3,6,5,0,3,0,,0,0.0,0.0,1
+6262,JSONDecodeError included in the documentation,winmorre,2022-10-21 07:45:17+00:00,2022-10-21 16:37:48+00:00,1,0,1,1,1,0,1,0,,0,0.0,0.0,1
+6291,Replace git protocol URL in docs with an HTTPS URL,oliviacrain,2022-11-21 20:09:10+00:00,2022-11-21 22:06:02+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+6317,Update flake8 repo and version,ch-iv,2022-12-25 23:39:31+00:00,2022-12-26 04:24:16+00:00,2,2,1,1,0,0,1,0,,0,0.0,0.0,1
+6325,Switch to Python 3.11 final on CI and add to tox file,browniebroke,2023-01-06 16:53:02+00:00,2023-01-06 18:32:31+00:00,2,2,2,1,0,0,2,0,,0,0.0,0.0,1
+6236,ci: add minimum GitHub token permissions for workflows,ashishkurmi,2022-09-09 08:42:04+00:00,2023-01-11 22:06:54+00:00,13,0,3,1,1,0,3,0,,0,0.0,0.0,1
+6329,v2.28.2,nateprewitt,2023-01-11 22:39:35+00:00,2023-01-12 16:16:12+00:00,14,3,2,1,0,1,2,0,,56,22.0,0.39285714285714285,0
+6333,fix: Remove '<4' from python_requires,matthewfeickert,2023-01-18 21:37:47+00:00,2023-01-19 05:37:25+00:00,1,1,1,1,2,0,1,0,,0,0.0,0.0,1
+6336,Support missing SNIMissingWarning in tests,pquentin,2023-01-20 18:26:35+00:00,2023-01-21 08:44:33+00:00,14,5,2,2,2,0,2,0,,1,1.0,1.0,0
+6365,Response.raw.read() returns bytes,verhovsky,2023-02-27 10:33:32+00:00,2023-02-27 15:31:17+00:00,2,2,1,1,0,0,1,0,,2,0.0,0.0,0
+6370,Upgrade lint.yml action,nateprewitt,2023-03-03 04:17:06+00:00,2023-03-03 04:45:27+00:00,6,5,2,1,0,0,2,0,,57,22.0,0.38596491228070173,0
+6368,Changed the comment so it's less confusing,zhu-yifang,2023-03-02 23:36:36+00:00,2023-03-03 05:32:49+00:00,3,3,1,1,0,0,1,0,,0,0.0,0.0,1
+6356,Allow str/bytes subclasses to be used as header parts,sethmlarson,2023-02-17 16:19:43+00:00,2023-03-03 20:39:03+00:00,48,13,3,1,2,0,3,1,Fix linting issues,4,1.0,0.25,0
+6226,Use urllib3 native chunking ability,shadycuz,2022-09-01 00:53:34+00:00,2023-04-22 23:32:52+00:00,13,58,1,4,10,0,1,0,,0,0.0,0.0,1
+6421,pin cryptography<40 on pypy 3.7,graingert,2023-04-22 11:44:51+00:00,2023-04-22 23:41:27+00:00,1,0,1,3,2,0,1,0,,1,0.0,0.0,0
+6418,update GitHub actions to ubuntu 22.04,graingert,2023-04-21 15:54:43+00:00,2023-04-22 23:53:09+00:00,1,1,1,1,0,0,1,0,,2,0.0,0.0,0
+6416,reenable the warnings plugin,graingert,2023-04-21 13:50:36+00:00,2023-04-23 00:00:22+00:00,1,1,1,1,5,0,1,0,,3,0.0,0.0,0
+6430,v2.29.0,nateprewitt,2023-04-25 23:23:31+00:00,2023-04-26 15:19:11+00:00,10,2,2,1,3,0,2,1,Fixed a small typo (#6452),58,22.0,0.3793103448275862,0
+6434,Remove strict parameter,pquentin,2023-04-28 18:53:50+00:00,2023-04-28 19:17:11+00:00,0,1,1,1,0,0,1,0,,2,1.0,0.5,0
+6436,v2.30.0,nateprewitt,2023-05-03 15:27:01+00:00,2023-05-03 15:39:44+00:00,19,7,4,1,0,1,4,1,Fixed a small typo (#6452),59,23.0,0.3898305084745763,0
+6452,Small typo fix in HISTORY.md,syed-saif,2023-05-09 15:08:51+00:00,2023-05-09 16:55:34+00:00,1,1,1,1,1,0,1,0,,0,0.0,0.0,1
+6448,test on py3.12,graingert,2023-05-08 17:39:41+00:00,2023-05-13 14:10:56+00:00,3,3,3,4,9,4,3,0,,4,0.0,0.0,0
+6424,test on pypy 3.8 and pypy 3.9 on windows and macos,graingert,2023-04-23 11:21:15+00:00,2023-05-15 15:04:22+00:00,3,4,1,4,0,0,1,0,,5,0.0,0.0,0
+6457,v2.31.0,nateprewitt,2023-05-22 15:10:03+00:00,2023-05-22 15:10:33+00:00,29,2,2,1,0,0,2,0,,60,24.0,0.4,0
+6458,I knew we missed a step...,nateprewitt,2023-05-22 15:27:13+00:00,2023-05-22 15:36:23+00:00,10,9,2,1,2,0,2,0,,61,24.0,0.39344262295081966,0
+6467,Fix doc typo,verhovsky,2023-06-07 00:43:36+00:00,2023-06-26 17:09:24+00:00,1,1,1,1,0,0,1,0,,3,0.0,0.0,0
+6258,Add an Example for automatic retries to the Advanced Usage docs,matthewarmand,2022-10-15 00:19:49+00:00,2023-07-03 20:38:22+00:00,22,0,1,1,2,0,1,0,,0,0.0,0.0,1
+6456,add docstring parameter hooks,cpzt,2023-05-17 12:28:43+00:00,2023-07-30 01:01:43+00:00,2,0,1,1,0,0,1,0,,0,0.0,0.0,1
+6214,"Update reference to ""cookielib"" to ""cookiejar"" in documentation",ittner,2022-08-16 01:02:34+00:00,2023-07-30 01:50:43+00:00,8,8,1,1,0,0,1,0,,0,0.0,0.0,1
+6187,refactor: prefer dictionary comphrension to loop,kkirsche,2022-06-29 15:53:20+00:00,2023-07-30 01:55:18+00:00,1,5,1,1,1,0,1,0,,3,1.0,0.3333333333333333,0
+6465,Add note about adapter prefix match to docs,ZetaTwo,2023-06-04 13:13:50+00:00,2023-07-30 04:05:45+00:00,4,0,1,2,0,0,1,0,,0,0.0,0.0,1
+6475,Specify that Session.headers needs to be set to a OrderedDict in Header Ordering docs,joren485,2023-06-26 18:38:58+00:00,2023-08-12 17:53:36+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+6266,Change to SPDX conform license string,elprimato,2022-10-23 18:37:01+00:00,2023-08-12 18:51:42+00:00,1,1,1,2,0,0,1,0,,0,0.0,0.0,1
+6497,Pin GHA workflows and add dependabot,nateprewitt,2023-08-12 17:05:11+00:00,2023-08-12 19:02:58+00:00,21,10,5,1,0,0,5,0,,62,24.0,0.3870967741935484,0
+6498,Pre commit update,nateprewitt,2023-08-12 17:09:38+00:00,2023-08-12 19:03:11+00:00,9,29,7,2,0,0,7,0,,63,24.0,0.38095238095238093,0
+6499,Bump dessant/lock-threads from 3.0.0 to 4.0.1,dependabot[bot],2023-08-12 19:03:18+00:00,2023-08-12 19:24:59+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+6500,Bump actions/setup-python from 2.3.4 to 4.7.0,dependabot[bot],2023-08-12 19:03:23+00:00,2023-08-12 19:36:48+00:00,1,1,1,1,0,0,1,0,,1,0.0,0.0,0
+6502,Bump github/codeql-action from 1.1.39 to 2.21.3,dependabot[bot],2023-08-12 19:03:31+00:00,2023-08-12 19:50:52+00:00,3,3,1,1,0,0,1,0,,2,0.0,0.0,0
+6501,Bump actions/checkout from 2.7.0 to 3.5.3,dependabot[bot],2023-08-12 19:03:26+00:00,2023-08-12 20:15:39+00:00,2,2,2,1,0,0,2,0,,3,0.0,0.0,0
+6496,Upgrade to httpbin 0.10.0,nateprewitt,2023-08-12 16:55:36+00:00,2023-08-13 16:56:53+00:00,2,5,2,1,4,0,2,0,,64,24.0,0.375,0
+6503,Add 3.12 classifier and tox configuration,nateprewitt,2023-08-13 18:35:47+00:00,2023-08-13 19:56:19+00:00,2,1,2,1,0,0,2,0,,65,24.0,0.36923076923076925,0
+6506,Move to src directory,nateprewitt,2023-08-13 19:55:45+00:00,2023-08-13 21:46:13+00:00,11,14,22,1,0,0,22,1,Fix urllib3 pin in setup.cfg (#6545),66,24.0,0.36363636363636365,0
+6505,Remove pytest-mock requirement,nateprewitt,2023-08-13 19:40:51+00:00,2023-08-13 23:08:21+00:00,28,27,4,1,0,0,4,0,,67,25.0,0.373134328358209,0
+6507,Fix monthly download badge in README,ocupe,2023-08-16 11:44:09+00:00,2023-08-16 15:16:54+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+6508,Fix documentation monthly download badge,13steinj,2023-08-18 15:35:16+00:00,2023-08-18 17:01:27+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+6516,Bump actions/checkout from 3.5.3 to 3.6.0,dependabot[bot],2023-08-28 16:12:38+00:00,2023-08-28 19:05:57+00:00,3,3,3,1,0,0,3,0,,4,0.0,0.0,0
+6517,Remove pytest.ini in MANIFEST.in since it does not exist anymore,jnhyperion,2023-08-29 05:43:16+00:00,2023-08-29 14:27:11+00:00,1,1,1,1,1,0,1,0,,0,0.0,0.0,1
+6519,Bump actions/checkout from 3.6.0 to 4.0.0,dependabot[bot],2023-09-04 16:21:28+00:00,2023-09-05 00:17:08+00:00,3,3,3,1,0,0,3,0,,5,0.0,0.0,0
+6538,Bump actions/checkout from 4.0.0 to 4.1.0,dependabot[bot],2023-09-25 16:28:36+00:00,2023-09-25 18:30:06+00:00,3,3,3,1,0,0,3,0,,6,0.0,0.0,0
+6545,Fix urllib3 pin in setup.cfg,nateprewitt,2023-10-06 20:10:28+00:00,2023-10-06 22:34:24+00:00,1,1,1,1,4,0,1,0,,68,25.0,0.36764705882352944,0
+6548,Bump github/codeql-action from 2.21.3 to 2.22.1,dependabot[bot],2023-10-09 16:29:56+00:00,2023-10-09 16:49:28+00:00,3,3,1,1,0,0,1,0,,7,0.0,0.0,0
+6527,Autoclose specific issue templates,sigmavirus24,2023-09-13 14:36:49+00:00,2023-10-11 16:29:20+00:00,39,0,3,3,0,4,3,1,Merge pull request #6596 from psf/fix-autoclose-automtaion,4,2.0,0.5,0
+6552,#6551  - assert statements for test test_header_validation,swims-hjkl,2023-10-18 02:19:46+00:00,2023-10-18 06:08:52+00:00,1,1,1,1,0,0,1,1,Merge pull request #6592 from atatuzuner61/bug/6584,0,0.0,0.0,1
+6574,Fix missing space in error message,msea1,2023-11-16 01:08:02+00:00,2023-11-16 07:44:49+00:00,1,1,1,1,0,0,1,1,Enhance `super_len` to count encoded bytes for str,0,0.0,0.0,1
+6580,Bump dessant/lock-threads from 4.0.1 to 5.0.0,dependabot[bot],2023-11-20 16:28:18+00:00,2023-11-20 16:37:07+00:00,1,1,1,1,0,0,1,0,,8,0.0,0.0,0
+6581,fix docstring typo: a -> as,EFord36,2023-11-22 11:36:50+00:00,2023-11-22 15:10:48+00:00,1,1,1,1,0,0,1,1,Enhance `super_len` to count encoded bytes for str,0,0.0,0.0,1
+6596,Update close-issues.yml,sigmavirus24,2023-12-01 14:06:10+00:00,2023-12-01 17:18:03+00:00,2,0,1,1,0,0,1,0,,5,3.0,0.6,0
+6599,Bump actions/setup-python from 4.7.0 to 5.0.0,dependabot[bot],2023-12-11 16:07:16+00:00,2023-12-11 16:11:07+00:00,2,2,2,1,0,0,2,1,Merge pull request #6641 from nateprewitt/fix_ci,9,0.0,0.0,0
+6603,Add now mandatory readthedocs config file,nsoranzo,2023-12-15 21:01:43+00:00,2023-12-16 13:24:37+00:00,28,0,1,1,1,0,1,1,Merge pull request #6612 from miketheman/fix-docs-urls,0,0.0,0.0,1
+6600,Add note on connection timeout being larger than specified. Fix #5773,MestreLion,2023-12-13 13:19:43+00:00,2023-12-16 13:30:18+00:00,14,0,1,3,2,2,1,1,Merge pull request #6583 from EFord36/fix-broken-links,0,0.0,0.0,1
+6592,"""TOO_EARLY"" type definition for status code 425",atatuzuner61,2023-11-29 17:31:32+00:00,2023-12-16 20:24:03+00:00,16,1,2,3,0,0,2,1,Merge pull request #6662 from sigmavirus24/fix-tls-floppy,0,0.0,0.0,1
+6607,Bump github/codeql-action from 2.22.1 to 3.22.11,dependabot[bot],2023-12-18 16:39:48+00:00,2023-12-18 17:30:43+00:00,3,3,1,1,0,0,1,0,,10,1.0,0.1,0
+6605,fix for ##6604,jaikishpai,2023-12-17 21:36:12+00:00,2023-12-20 06:17:55+00:00,11,11,2,1,0,0,2,1,Merge pull request #6612 from miketheman/fix-docs-urls,0,0.0,0.0,1
+6613,docs: add label to socks heading,miketheman,2023-12-23 17:19:45+00:00,2023-12-23 17:24:56+00:00,2,0,1,1,0,0,1,1,Merge pull request #6583 from EFord36/fix-broken-links,0,0.0,0.0,1
+6612,"docs: specify sphinx dirhtml builder, use references instead of absolutes",miketheman,2023-12-23 16:20:11+00:00,2023-12-23 18:33:48+00:00,17,13,6,4,5,0,6,1,Merge pull request #6583 from EFord36/fix-broken-links,1,1.0,1.0,0
+6619,Bump github/codeql-action from 3.22.11 to 3.23.0,dependabot[bot],2024-01-08 17:01:38+00:00,2024-01-08 17:56:01+00:00,3,3,1,1,0,0,1,0,,11,1.0,0.09090909090909091,0
+6632,Bump github/codeql-action from 3.23.0 to 3.24.0,dependabot[bot],2024-02-05 16:38:02+00:00,2024-02-06 02:54:27+00:00,3,3,1,1,0,0,1,0,,12,1.0,0.08333333333333333,0
+6640,Cleanup defunct links from community docs page,nateprewitt,2024-02-20 20:03:41+00:00,2024-02-20 20:04:33+00:00,1,13,1,1,0,0,1,0,,69,25.0,0.36231884057971014,0
+6641,Fix CI,nateprewitt,2024-02-20 22:54:06+00:00,2024-02-20 23:32:57+00:00,3,8,3,3,2,0,3,1,Merge pull request #6682 from frenzymadness/pytest8,70,25.0,0.35714285714285715,0
+6642,Drop support for CPython 3.7,nateprewitt,2024-02-20 23:26:18+00:00,2024-02-20 23:44:43+00:00,8,10,7,1,0,0,7,1,Merge pull request #6682 from frenzymadness/pytest8,71,26.0,0.36619718309859156,0
+6629,Fix #6628 - JSONDecodeError are not deserializable,Tarty,2024-01-31 16:14:59+00:00,2024-02-22 20:27:37+00:00,20,0,2,1,4,0,2,1,Merge pull request #6682 from frenzymadness/pytest8,0,0.0,0.0,1
+6644,Trim excess leading path separators,sigmavirus24,2024-02-22 01:11:15+00:00,2024-02-23 00:49:42+00:00,11,0,2,1,0,9,2,1,Merge pull request #6662 from sigmavirus24/fix-tls-floppy,6,3.0,0.5,0
+6589,Enhance `super_len` to count encoded bytes for str,bruceadams,2023-11-28 18:21:03+00:00,2024-02-23 00:53:25+00:00,20,0,2,2,2,3,2,1,Merge pull request #6682 from frenzymadness/pytest8,0,0.0,0.0,1
+6587,Unit test for string containing multi-byte UTF-8 #6586,bruceadams,2023-11-27 22:31:41+00:00,2024-02-23 00:53:27+00:00,17,0,1,1,0,0,1,1,Merge pull request #6682 from frenzymadness/pytest8,1,1.0,1.0,0
+6583,Fix broken links in docs,EFord36,2023-11-24 11:23:44+00:00,2024-02-23 11:30:46+00:00,5,8,4,6,6,7,4,0,,1,1.0,1.0,0
+6562,every chardet package maps to requests.packages.chardet.* package respectively,amkarn258,2023-10-30 19:23:56+00:00,2024-02-23 12:26:38+00:00,4,2,1,4,4,6,1,0,,0,0.0,0.0,1
+6655,Use TLS settings in selecting connection pool,sigmavirus24,2024-03-03 13:05:10+00:00,2024-03-11 11:21:59+00:00,65,2,3,1,0,6,3,1,Merge pull request #6716 from sigmavirus24/bug/6715,7,4.0,0.5714285714285714,0
+6662,Add local TLS server,sigmavirus24,2024-03-13 21:02:03+00:00,2024-03-14 11:25:25+00:00,716,9,30,1,2,5,30,1,Merge pull request #6716 from sigmavirus24/bug/6715,8,5.0,0.625,0
+6302,Fix the proxy_bypass_registry function all returning true in some cases.,flysee,2022-12-07 11:31:41+00:00,2024-03-18 21:38:17+00:00,34,0,2,2,6,0,2,0,,0,0.0,0.0,1
+6677,Bump actions/setup-python from 5.0.0 to 5.1.0,dependabot[bot],2024-04-01 17:00:21+00:00,2024-04-01 17:36:47+00:00,2,2,2,1,0,0,2,0,,13,1.0,0.07692307692307693,0
+6680,Add rfc9110 HTTP status code names,mbeijen,2024-04-08 19:57:43+00:00,2024-04-11 14:10:57+00:00,4,4,1,1,0,0,1,1,Merge branch 'psf:main' into patch-1,0,0.0,0.0,1
+6682,Fix compatibility with pytest 8,frenzymadness,2024-04-11 19:10:21+00:00,2024-04-11 19:49:35+00:00,2,2,2,1,0,0,2,1,Merge branch 'psf:main' into patch-1,1,0.0,0.0,0
+6687,Bump github/codeql-action from 3.24.0 to 3.25.0,dependabot[bot],2024-04-15 16:40:36+00:00,2024-04-15 17:01:39+00:00,3,3,1,1,0,0,1,1,Merge branch 'psf:main' into patch-1,14,1.0,0.07142857142857142,0
+6688,Pin 3.8 and 3.9 runners back to macos-13,nateprewitt,2024-04-23 16:58:07+00:00,2024-04-23 17:50:20+00:00,9,0,1,1,0,0,1,1,Merge branch 'psf:main' into patch-1,72,27.0,0.375,0
+6700,Use an invalid URI that will not cause httpbin to throw 500,franekmagiera,2024-05-12 20:11:03+00:00,2024-05-12 21:33:47+00:00,1,1,1,1,0,0,1,1,Merge branch 'psf:main' into patch-1,0,0.0,0.0,1
+6702,Allow optional char detection dependencies in post-packaging,nateprewitt,2024-05-14 22:25:35+00:00,2024-05-15 00:15:19+00:00,60,23,5,1,0,1,5,1,Merge branch 'psf:main' into patch-1,73,28.0,0.3835616438356164,0
+6667,Avoid reloading root certificates to improve concurrent performance,agubelu,2024-03-20 11:51:17+00:00,2024-05-15 20:07:26+00:00,28,18,1,4,21,2,1,1,Merge branch 'psf:main' into patch-1,0,0.0,0.0,1
+6705,v2.32.0,nateprewitt,2024-05-20 15:30:48+00:00,2024-05-20 15:46:49+00:00,48,2,2,1,0,0,2,1,Merge branch 'psf:main' into patch-1,74,29.0,0.3918918918918919,0
+6708,v2.32.1,nateprewitt,2024-05-20 20:18:56+00:00,2024-05-20 22:02:30+00:00,10,2,3,2,0,0,3,1,Merge branch 'psf:main' into patch-1,75,30.0,0.4,0
+6710,Move _get_connection to get_connection_with_tls_context,nateprewitt,2024-05-21 15:58:50+00:00,2024-05-21 16:41:18+00:00,31,6,1,2,9,3,1,1,Merge branch 'psf:main' into patch-1,76,31.0,0.40789473684210525,0
+6712,v2.32.2,nateprewitt,2024-05-21 16:36:41+00:00,2024-05-21 18:49:22+00:00,16,2,2,1,0,0,2,1,Merge branch 'psf:main' into patch-1,77,32.0,0.4155844155844156,0
+6716,Allow for overriding of specific pool key params,sigmavirus24,2024-05-22 11:53:49+00:00,2024-05-24 21:37:06+00:00,81,10,2,3,13,2,2,1,Merge branch 'psf:main' into patch-1,9,6.0,0.6666666666666666,0
+6724,Don't create default SSLContext if ssl module isn't present,nateprewitt,2024-05-28 19:34:27+00:00,2024-05-29 15:23:40+00:00,19,5,1,1,1,7,1,1,Merge branch 'psf:main' into patch-1,78,33.0,0.4230769230769231,0
+6721,v2.32.3,nateprewitt,2024-05-24 21:56:47+00:00,2024-05-29 15:36:10+00:00,6,4,2,1,2,0,2,1,Merge branch 'psf:main' into patch-1,79,34.0,0.43037974683544306,0
+6774,remove setuptools test command,branchv,2024-07-29 03:50:26+00:00,2024-07-29 13:49:17+00:00,0,26,1,1,9,0,1,0,,0,0.0,0.0,1
+6757,Test on urllib3 1.26.x,nateprewitt,2024-07-02 01:11:04+00:00,2024-07-30 01:44:14+00:00,60,18,4,3,0,3,4,0,,80,35.0,0.4375,0
+6787,Bump github/codeql-action from 3.25.0 to 3.26.0,dependabot[bot],2024-08-12 16:23:17+00:00,2024-08-12 16:54:11+00:00,3,3,1,1,0,0,1,0,,15,2.0,0.13333333333333333,0
+6797,Bump actions/setup-python from 5.1.0 to 5.2.0,dependabot[bot],2024-09-02 16:56:27+00:00,2024-09-02 17:37:44+00:00,4,4,2,1,0,0,2,1,Merge pull request #6824 from psf/nateprewitt-patch-1,16,2.0,0.125,0
+6802,start testing on 3.13rc,graingert,2024-09-18 14:05:21+00:00,2024-09-19 11:19:03+00:00,6,4,4,7,2,4,4,1,Merge branch 'psf:main' into patch-1,6,0.0,0.0,0
+6720,Start testing on 3.13 beta,nateprewitt,2024-05-23 19:02:21+00:00,2024-09-19 11:19:05+00:00,1,1,1,1,4,0,1,1,Merge branch 'psf:main' into patch-1,81,35.0,0.43209876543209874,0
+6803,Bump actions/checkout from 4.1.0 to 4.2.0,dependabot[bot],2024-09-30 16:34:21+00:00,2024-09-30 17:32:22+00:00,5,5,3,1,0,0,3,1,Merge branch 'psf:main' into patch-1,17,3.0,0.17647058823529413,0
+6818,Bump github/codeql-action from 3.26.0 to 3.27.0,dependabot[bot],2024-10-28 16:05:21+00:00,2024-10-28 16:24:12+00:00,3,3,1,1,0,0,1,1,Merge branch 'psf:main' into patch-1,18,4.0,0.2222222222222222,0
+6817,Bump actions/setup-python from 5.2.0 to 5.3.0,dependabot[bot],2024-10-28 16:05:12+00:00,2024-10-28 16:24:24+00:00,4,4,2,1,0,0,2,1,Merge branch 'psf:main' into patch-1,19,5.0,0.2631578947368421,0
+6820,Update vulnerability disclosure process,nateprewitt,2024-11-02 20:08:00+00:00,2024-11-02 20:13:02+00:00,6,120,2,3,0,0,2,1,Merge branch 'psf:main' into patch-1,82,36.0,0.43902439024390244,0
+6824,Remove old macOS runners,nateprewitt,2024-11-10 05:51:47+00:00,2024-11-10 16:18:36+00:00,0,9,1,1,0,0,1,1,Merge branch 'psf:main' into patch-1,83,37.0,0.4457831325301205,0
+6875,Bump github/codeql-action from 3.27.0 to 3.28.5,dependabot[bot],2025-01-27 16:56:15+00:00,2025-01-27 17:39:35+00:00,3,3,1,1,0,0,1,1,Merge branch 'psf:main' into patch-1,20,6.0,0.3,0
+6883,Bump actions/setup-python from 5.3.0 to 5.4.0,dependabot[bot],2025-02-03 16:27:41+00:00,2025-02-03 16:58:58+00:00,4,4,2,1,0,0,2,1,Merge branch 'psf:main' into patch-1,21,7.0,0.3333333333333333,0
+6880,docs(exceptions): Remove unused exception URLRequired from documentation,jakobheine,2025-02-01 19:44:20+00:00,2025-02-10 21:13:27+00:00,0,1,1,1,1,1,1,1,Merge branch 'psf:main' into patch-1,0,0.0,0.0,1
+6529,fix doc: correct models.Response.json() docstring,anupam-arista,2023-09-14 09:01:07+00:00,2025-02-13 16:49:50+00:00,3,1,1,7,2,2,1,0,,0,0.0,0.0,1
+6897,Add CA constraint to test CA,cjwatson,2025-02-17 00:43:02+00:00,2025-02-17 12:40:19+00:00,283,272,13,2,2,0,13,0,,0,0.0,0.0,1
+6899,Docs: Add quotes to prevent Zsh wildcard interpretation.,duzhuoshanwai,2025-02-19 02:08:27+00:00,2025-02-20 18:43:14+00:00,1,1,1,1,0,0,1,1,docs: fix dead links to kenreitz.org,0,0.0,0.0,1
+6925,Bump actions/setup-python from 5.4.0 to 5.5.0,dependabot[bot],2025-03-31 16:31:11+00:00,2025-03-31 16:43:08+00:00,4,4,2,1,0,0,2,0,,22,8.0,0.36363636363636365,0
+6924,Add key usage extension to test ca.crt,RichieB2B,2025-03-29 13:57:47+00:00,2025-04-16 02:46:51+00:00,11,10,2,1,1,0,2,0,,0,0.0,0.0,1
+6937,ci: update to ubuntu-24.04 in workflow,allrob23,2025-04-23 11:15:14+00:00,2025-04-23 12:44:06+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+6939,Bump actions/setup-python from 5.5.0 to 5.6.0,dependabot[bot],2025-04-28 17:28:06+00:00,2025-04-28 17:36:20+00:00,4,4,2,1,0,0,2,0,,23,8.0,0.34782608695652173,0
+6926,Drop pypy 3.9 and add pypy 3.11 support,nateprewitt,2025-03-31 17:29:53+00:00,2025-05-02 02:54:57+00:00,10,1,2,1,2,0,2,0,,84,38.0,0.4523809523809524,0
+6936,test: add two more tests exercising the adapter,allrob23,2025-04-23 00:51:22+00:00,2025-05-03 16:39:14+00:00,26,0,1,3,5,0,1,1,Add new test to check netrc auth leak (#6962),1,0.0,0.0,0
+6951,docs: fix dead links to kenreitz.org,tswast,2025-05-21 16:11:00+00:00,2025-06-01 18:07:18+00:00,13,18,3,3,7,1,3,0,,0,0.0,0.0,1
+6965,Only use hostname to do netrc lookup instead of netloc,sethmlarson,2025-06-04 15:00:33+00:00,2025-06-04 15:39:25+00:00,1,7,1,1,0,0,1,0,,5,2.0,0.4,0
+6962,test: Add new test to check netrc auth leak,danigm,2025-06-04 10:44:11+00:00,2025-06-05 11:21:47+00:00,31,0,1,1,4,0,1,0,,0,0.0,0.0,1
+6963,fix CVE 2024 47081: manual url parsing leads to netloc credentials leak,awoimbee,2025-06-04 10:59:08+00:00,2025-06-05 14:55:33+00:00,20,8,2,3,2,1,2,0,,0,0.0,0.0,1
+6876,Add netrc file search information to authentication documentation,pszlazak,2025-01-27 20:57:34+00:00,2025-06-08 17:47:56+00:00,11,0,2,1,1,5,2,0,,0,0.0,0.0,1
+6966,Bump version and add release notes for v2.32.4,sigmavirus24,2025-06-09 15:22:41+00:00,2025-06-09 16:39:48+00:00,20,6,3,2,0,0,3,0,,10,7.0,0.7,0
+6968,Add Trusted Publishing Release Workflow,sigmavirus24,2025-06-10 02:17:07+00:00,2025-06-10 02:32:46+00:00,90,1,2,1,0,0,2,0,,11,7.0,0.6363636363636364,0
+6806,Fix typo in documentation for verify,jonas,2024-10-04 13:20:03+00:00,2025-06-10 02:54:25+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+6773,Clarify error description in cloning instructions,anodo123,2024-07-28 12:46:52+00:00,2025-06-10 12:40:34+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+6767,Revert caching a default SSLContext,nateprewitt,2024-07-18 18:00:33+00:00,2025-06-13 16:42:08+00:00,16,39,1,2,8,1,1,0,,85,38.0,0.4470588235294118,0
+6973,Bump github/codeql-action from 3.28.5 to 3.29.0,dependabot[bot],2025-06-16 17:38:12+00:00,2025-06-16 19:10:36+00:00,3,3,1,1,2,0,1,0,,24,8.0,0.3333333333333333,0
+6994,docs: clarify timeout parameter uses seconds in Session.request,killerdevildog,2025-07-18 01:14:36+00:00,2025-07-18 02:09:20+00:00,1,1,1,1,1,0,1,0,,0,0.0,0.0,1
+6996,Remove the unused tox and flake8 sections from Makefile,abhi-jha,2025-07-18 16:05:49+00:00,2025-07-18 16:24:31+00:00,2,5,1,5,2,2,1,0,,0,0.0,0.0,1
+6993,Add support for Python 3.14 and drop support for Python 3.8,nateprewitt,2025-07-17 22:29:28+00:00,2025-07-25 20:42:15+00:00,19,14,7,3,0,0,7,0,,86,38.0,0.4418604651162791,0
+6999,Bump step-security/harden-runner from 2.12.0 to 2.13.0,dependabot[bot],2025-07-28 19:01:26+00:00,2025-07-28 19:09:42+00:00,2,2,1,1,0,0,1,0,,25,8.0,0.32,0
+7005,security: update publish workflow to use `artifact-id` instead of `name`,GrantBirki,2025-08-06 05:55:49+00:00,2025-08-06 12:36:19+00:00,6,2,1,1,1,0,1,0,,0,0.0,0.0,1
+7010,Bump actions/checkout from 4.2.0 to 5.0.0,dependabot[bot],2025-08-11 22:15:23+00:00,2025-08-11 22:32:17+00:00,6,6,4,1,0,0,4,0,,26,8.0,0.3076923076923077,0
+7011,v2.32.5,nateprewitt,2025-08-17 16:08:54+00:00,2025-08-18 20:23:20+00:00,12,2,2,1,0,0,2,0,,87,38.0,0.4367816091954023,0
+7019,Bump github/codeql-action from 3.29.0 to 3.30.0,dependabot[bot],2025-09-02 02:56:18+00:00,2025-09-02 08:15:01+00:00,3,3,1,1,0,0,1,0,,27,8.0,0.2962962962962963,0
+7025,Bump pypa/gh-action-pypi-publish from 1.12.4 to 1.13.0,dependabot[bot],2025-09-08 16:18:38+00:00,2025-09-09 00:08:50+00:00,1,1,1,1,0,0,1,0,,28,8.0,0.2857142857142857,0
+7026,Bump actions/setup-python from 5.6.0 to 6.0.0,dependabot[bot],2025-09-08 16:22:56+00:00,2025-09-09 09:00:19+00:00,5,5,3,1,0,0,3,0,,29,8.0,0.27586206896551724,0
+7042,Bump github/codeql-action from 3.30.0 to 4.30.8,dependabot[bot],2025-10-13 16:16:06+00:00,2025-10-15 11:45:43+00:00,3,3,1,1,0,0,1,0,,30,8.0,0.26666666666666666,0
+7190,Fix CI and build failures,nateprewitt,2026-01-30 19:43:14+00:00,2026-01-30 21:10:28+00:00,73,72,19,3,0,0,19,1,Fix remaining typos (#7395),88,38.0,0.4318181818181818,0
+7191,Update maintainers in the AUTHORS.rst,nateprewitt,2026-01-30 22:52:33+00:00,2026-01-31 02:12:41+00:00,7,7,1,3,0,4,1,0,,89,39.0,0.43820224719101125,0
+7012,Migrate build system to PEP 517,nateprewitt,2025-08-17 16:29:40+00:00,2026-01-31 02:25:56+00:00,79,111,3,4,5,2,3,1,Fix unintended test extra (#7306),90,39.0,0.43333333333333335,0
+7071,Bump actions/upload-artifact from 4.6.2 to 5.0.0,dependabot[bot],2025-10-27 16:21:22+00:00,2026-01-31 02:36:42+00:00,1,1,1,1,2,0,1,0,,31,8.0,0.25806451612903225,0
+7073,Bump actions/download-artifact from 5.0.0 to 6.0.0,dependabot[bot],2025-10-27 18:15:27+00:00,2026-01-31 02:45:14+00:00,1,1,1,1,1,0,1,0,,32,8.0,0.25,0
+7092,Bump actions/checkout from 5.0.0 to 6.0.0,dependabot[bot],2025-11-24 16:54:37+00:00,2026-01-31 02:47:47+00:00,6,6,4,1,3,0,4,0,,33,8.0,0.24242424242424243,0
+7100,Bump actions/setup-python from 6.0.0 to 6.1.0,dependabot[bot],2025-12-01 18:13:25+00:00,2026-01-31 02:59:20+00:00,5,5,3,1,1,0,3,0,,34,8.0,0.23529411764705882,0
+7101,Bump github/codeql-action from 4.30.8 to 4.31.6,dependabot[bot],2025-12-01 18:13:39+00:00,2026-01-31 03:01:53+00:00,3,3,1,1,1,0,1,0,,35,8.0,0.22857142857142856,0
+7195,Start testing Python 3.15 Alpha,nateprewitt,2026-02-04 17:49:29+00:00,2026-02-05 01:01:16+00:00,4,1,1,2,0,0,1,0,,91,40.0,0.43956043956043955,0
+7196,Drop support for Python 3.9,nateprewitt,2026-02-05 16:30:31+00:00,2026-02-06 15:02:46+00:00,11,13,5,1,0,0,5,1,Fix unintended test extra (#7306),92,40.0,0.43478260869565216,0
+7189,Update floors for certifi and urllib3 to something more reasonable,nateprewitt,2026-01-30 18:45:06+00:00,2026-02-10 23:36:31+00:00,2,2,1,1,7,0,1,1,Fix unintended test extra (#7306),93,41.0,0.44086021505376344,0
+7199,Bump dessant/lock-threads from 5.0.0 to 6.0.0,dependabot[bot],2026-02-09 20:14:17+00:00,2026-02-11 00:22:16+00:00,1,1,1,1,3,0,1,0,,36,8.0,0.2222222222222222,0
+7200,Bump step-security/harden-runner from 2.13.0 to 2.14.2,dependabot[bot],2026-02-09 20:14:22+00:00,2026-02-11 00:29:35+00:00,2,2,1,1,1,0,1,0,,37,8.0,0.21621621621621623,0
+7205,Fix empty netrc entry usage,nateprewitt,2026-02-13 02:01:37+00:00,2026-02-13 02:07:05+00:00,11,1,2,2,0,0,2,1,Fix malformed value parsing for Content-Type (#7309),94,42.0,0.44680851063829785,0
+6865,Update docstring for Session.verify to include string support (#6859),M0d3v1,2025-01-01 16:05:50+00:00,2026-02-13 02:52:04+00:00,2,0,1,2,0,1,1,1,Fix mutability issues with headers input types (#7431),0,0.0,0.0,1
+7206,Update publish workflow,nateprewitt,2026-02-13 19:43:30+00:00,2026-02-13 20:23:44+00:00,45,28,2,2,1,0,2,0,,95,43.0,0.45263157894736844,0
+7207,Remove harden runner from publish workflow,nateprewitt,2026-02-13 22:37:31+00:00,2026-02-13 22:48:20+00:00,0,15,1,1,0,0,1,0,,96,43.0,0.4479166666666667,0
+7208,Add CODEOWNERS file to repo,nateprewitt,2026-02-13 22:51:29+00:00,2026-02-14 00:06:57+00:00,8,0,1,1,0,0,1,0,,97,43.0,0.44329896907216493,0
+7220,Increase chardet upper limit to 7,aminvakil,2026-02-22 16:08:41+00:00,2026-02-22 22:02:38+00:00,2,2,2,1,6,0,2,1,Fix unintended test extra (#7306),0,0.0,0.0,1
+7237,Bump actions/upload-artifact from 6.0.0 to 7.0.0,dependabot[bot],2026-03-02 18:43:40+00:00,2026-03-02 20:33:25+00:00,1,1,1,1,0,0,1,0,,38,8.0,0.21052631578947367,0
+7238,Bump actions/download-artifact from 7.0.0 to 8.0.0,dependabot[bot],2026-03-02 18:43:44+00:00,2026-03-02 20:45:20+00:00,2,2,1,1,0,0,1,0,,39,8.0,0.20512820512820512,0
+7239,Increase chardet limit again to prepare for 7.0.0 release,dan-blanchard,2026-03-02 23:00:26+00:00,2026-03-03 18:46:41+00:00,3,3,2,1,4,0,2,1,Fix unintended test extra (#7306),1,0.0,0.0,0
+6960,docs: clarify Quickstart POST example (fixes #6949),E8Price,2025-06-02 21:54:56+00:00,2026-03-03 19:59:47+00:00,3,1,1,2,0,0,1,0,,0,0.0,0.0,1
+7244,docs: hide Response.is_permanent_redirect from API reference,mitre88,2026-03-05 19:55:58+00:00,2026-03-05 20:14:30+00:00,1,0,1,1,0,0,1,0,,0,0.0,0.0,1
+7270,Bump github/codeql-action from 4.32.0 to 4.33.0,dependabot[bot],2026-03-16 17:38:51+00:00,2026-03-19 18:44:23+00:00,3,3,1,1,2,0,1,0,,40,8.0,0.2,0
+7290,Bump github/codeql-action from 4.33.0 to 4.34.1,dependabot[bot],2026-03-23 17:26:07+00:00,2026-03-23 17:43:09+00:00,3,3,1,1,0,0,1,0,,41,8.0,0.1951219512195122,0
+6553,docs(socks): same block as other sections,magsen,2023-10-18 13:00:02+00:00,2026-03-25 01:26:47+00:00,1,3,1,1,6,0,1,1,docs: Fix missing hook output in docs example (#7421),0,0.0,0.0,1
+7227,docs: fix FAQ grammar in httplib2 example,Rohan5commit,2026-02-27 09:31:45+00:00,2026-03-25 01:36:48+00:00,1,1,1,1,0,1,1,0,,0,0.0,0.0,1
+7292,Remove unused extraction call,nateprewitt,2026-03-25 05:10:22+00:00,2026-03-25 05:15:21+00:00,2,2,2,1,0,0,2,1,Fix remaining typos (#7395),98,43.0,0.4387755102040816,0
+7293,Move badges to top of README,nateprewitt,2026-03-25 05:11:20+00:00,2026-03-25 05:18:39+00:00,5,4,1,1,0,0,1,0,,99,44.0,0.4444444444444444,0
+7294,v2.33.0,nateprewitt,2026-03-25 15:00:58+00:00,2026-03-25 15:06:17+00:00,30,1,2,1,0,0,2,0,,100,44.0,0.44,0
+7277,Packaging: DRY out extras definition,ferdnyc,2026-03-21 00:29:01+00:00,2026-03-30 04:07:31+00:00,1,1,1,1,0,0,1,1,Improve static typing of 3rd party imports  (#7496),0,0.0,0.0,1
+7305,Cleanup extracted file after extract_zipped_path test,nateprewitt,2026-03-29 21:54:27+00:00,2026-03-30 15:21:39+00:00,6,3,1,1,0,0,1,1,Fix malformed value parsing for Content-Type (#7309),101,44.0,0.43564356435643564,0
+7306,"Fix unintended ""test"" extra",nateprewitt,2026-03-30 04:13:52+00:00,2026-03-30 15:23:01+00:00,5,1,1,1,0,0,1,1,Improve static typing of 3rd party imports  (#7496),102,45.0,0.4411764705882353,0
+7308,Fix cosmetic header validity parsing regex,nateprewitt,2026-03-30 15:12:38+00:00,2026-03-30 15:24:49+00:00,9,4,2,1,0,0,2,1,Fix `_encode_files` detection for `__getattr__`-based file wrappers (#7502),103,46.0,0.44660194174757284,0
+7309,Fix malformed value parsing for Content-Type,nateprewitt,2026-03-30 15:12:53+00:00,2026-03-30 15:27:35+00:00,10,13,2,1,0,0,2,0,,104,47.0,0.4519230769230769,0
+7311,v2.33.1,nateprewitt,2026-03-30 16:01:49+00:00,2026-03-30 16:07:00+00:00,12,3,2,1,0,0,2,0,,105,47.0,0.44761904761904764,0
+7312,Bump github/codeql-action from 4.34.1 to 4.35.1,dependabot[bot],2026-03-30 18:25:43+00:00,2026-03-30 18:33:03+00:00,3,3,1,1,0,0,1,0,,42,8.0,0.19047619047619047,0
+7314,Add Zizmor workflow and make initial updates,nateprewitt,2026-03-31 22:25:39+00:00,2026-04-01 02:28:16+00:00,40,2,6,1,1,0,6,0,,106,47.0,0.44339622641509435,0
+7328,Prevent Response self-reference in redirect history,nateprewitt,2026-04-05 02:27:21+00:00,2026-04-05 15:31:02+00:00,9,2,2,1,0,0,2,1,Fix `_encode_files` detection for `__getattr__`-based file wrappers (#7502),107,47.0,0.4392523364485981,0
+7354,Cleanup docs and add i18n wrappers,nateprewitt,2026-04-10 21:34:10+00:00,2026-04-11 19:39:24+00:00,49,328,6,1,1,0,6,0,,108,48.0,0.4444444444444444,0
+7348,Update pre-commit versions,nateprewitt,2026-04-09 02:10:21+00:00,2026-04-12 00:05:37+00:00,17,6,2,3,0,0,2,0,,109,48.0,0.44036697247706424,0
+7360,Don't hide navigation on mobile webpage,nateprewitt,2026-04-14 17:26:46+00:00,2026-04-14 17:58:29+00:00,0,1,1,1,0,0,1,0,,110,48.0,0.43636363636363634,0
+7364,Move pytest pin to support 9.x series,nateprewitt,2026-04-15 02:52:30+00:00,2026-04-15 03:04:47+00:00,1,1,1,1,0,0,1,0,,111,48.0,0.43243243243243246,0
+7310,Move DigestAuth hash algorithms to use usedforsecurity=False,nateprewitt,2026-03-30 15:46:26+00:00,2026-04-15 14:56:38+00:00,5,5,1,1,0,4,1,0,,112,48.0,0.42857142857142855,0
+7365,"Clarify decode_unicode behaviour in iter_{content,lines} docstrings",cjriches,2026-04-15 09:47:32+00:00,2026-04-15 15:06:46+00:00,7,2,1,1,0,0,1,1,Fix `_encode_files` detection for `__getattr__`-based file wrappers (#7502),0,0.0,0.0,1
+7366,Update README and remove extraneous images,nateprewitt,2026-04-15 18:25:28+00:00,2026-04-15 18:30:58+00:00,2,5,6,1,0,0,6,0,,113,48.0,0.4247787610619469,0
+7371,Fix typo discovered by codespell,cclauss,2026-04-18 19:51:30+00:00,2026-04-19 18:34:20+00:00,1,1,1,1,1,0,1,1,Fix `_encode_files` detection for `__getattr__`-based file wrappers (#7502),1,0.0,0.0,0
+7376,Consider urllib3 version has 3 numbers at most (#7375),dsanader,2026-04-20 13:24:54+00:00,2026-04-20 16:24:32+00:00,1,1,1,1,0,0,1,1,Improve static typing of 3rd party imports  (#7496),0,0.0,0.0,1
+7378,Bump pypa/gh-action-pypi-publish from 1.13.0 to 1.14.0,dependabot[bot],2026-04-20 19:19:35+00:00,2026-04-20 19:32:32+00:00,2,2,1,1,0,0,1,0,,43,8.0,0.18604651162790697,0
+7386,Update index.rst to match README info,nateprewitt,2026-04-23 20:44:37+00:00,2026-04-23 20:53:48+00:00,16,12,1,1,0,0,1,0,,114,48.0,0.42105263157894735,0
+7387,Create groups for GHA and pre-commit dependabot PRs,nateprewitt,2026-04-24 03:45:47+00:00,2026-04-24 10:52:02+00:00,8,0,1,1,0,0,1,0,,115,48.0,0.41739130434782606,0
+7390,Bump https://github.com/astral-sh/ruff-pre-commit from v0.15.9 to 0.15.11 in the pre-commit group,dependabot[bot],2026-04-24 10:52:54+00:00,2026-04-24 14:19:25+00:00,1,1,1,1,0,0,1,0,,44,8.0,0.18181818181818182,0
+7393,Ruff rule UP038 has been removed,DimitriPapadopoulos,2026-04-26 14:42:00+00:00,2026-04-27 15:08:18+00:00,1,1,1,1,0,0,1,1,Improve static typing of 3rd party imports  (#7496),0,0.0,0.0,1
+7395,Fix typos,DimitriPapadopoulos,2026-04-26 14:53:55+00:00,2026-04-30 14:35:13+00:00,2,2,2,1,1,0,2,1,Fix `_encode_files` detection for `__getattr__`-based file wrappers (#7502),1,1.0,1.0,0
+7401,Add tests for hasattr/getattr usage on LookupDict,nateprewitt,2026-04-30 02:51:46+00:00,2026-04-30 17:05:38+00:00,13,0,1,1,0,0,1,0,,116,48.0,0.41379310344827586,0
+7272,Add inline types to Requests,nateprewitt,2026-03-18 01:01:09+00:00,2026-05-03 19:38:48+00:00,1308,525,20,21,3,36,20,1,Fix `_encode_files` detection for `__getattr__`-based file wrappers (#7502),117,48.0,0.41025641025641024,0
+7408,v2.34.0.dev1,nateprewitt,2026-05-03 19:46:22+00:00,2026-05-03 19:51:27+00:00,17,2,2,1,0,0,2,0,,118,49.0,0.4152542372881356,0
+7411,Bump https://github.com/astral-sh/ruff-pre-commit from v0.15.11 to 0.15.12 in the pre-commit group,dependabot[bot],2026-05-04 21:31:45+00:00,2026-05-04 21:42:07+00:00,1,1,1,1,0,0,1,0,,45,8.0,0.17777777777777778,0
+7416,docs: update stale Sphinx link in contributing guide,joshua-51,2026-05-07 21:29:15+00:00,2026-05-07 22:27:47+00:00,8,8,5,2,1,0,5,0,,0,0.0,0.0,1
+7419,Add 3.14t support to CI,nateprewitt,2026-05-08 18:57:33+00:00,2026-05-08 20:18:00+00:00,2,1,2,1,0,0,2,1,Improve static typing of 3rd party imports  (#7496),119,49.0,0.4117647058823529,0
+7421,docs: Fix missing hook output in hook example,eggsort,2026-05-09 09:39:16+00:00,2026-05-09 18:51:50+00:00,1,0,1,1,0,0,1,0,,0,0.0,0.0,1
+7315,Preserve leading slashes in request path_url,typhon8,2026-03-31 22:38:22+00:00,2026-05-10 21:41:25+00:00,2,4,2,2,1,0,2,0,,0,0.0,0.0,1
+7423,Clear *_PROXY env vars during test runs,nateprewitt,2026-05-10 21:24:53+00:00,2026-05-11 02:05:15+00:00,9,0,1,1,0,0,1,0,,120,50.0,0.4166666666666667,0
+7422,Formalize 3.15 support,nateprewitt,2026-05-10 20:01:09+00:00,2026-05-11 02:05:35+00:00,1,1,2,1,0,0,2,1,Improve static typing of 3rd party imports  (#7496),121,50.0,0.4132231404958678,0
+7425,sessions: fix hooks type,bastimeyer,2026-05-11 14:54:28+00:00,2026-05-11 16:14:13+00:00,2,2,2,1,1,0,2,1,Fix mutability issues with headers input types (#7431),0,0.0,0.0,1
+7426,Parameterize SupportsItems to handle Mapping key invariance,nateprewitt,2026-05-11 16:31:48+00:00,2026-05-11 17:33:18+00:00,9,7,2,1,0,0,2,1,Fix mutability issues with headers input types (#7431),122,51.0,0.4180327868852459,0
+7427,Port bpo-39057 to Requests,nateprewitt,2026-05-11 16:43:07+00:00,2026-05-11 19:24:21+00:00,27,2,2,1,0,0,2,0,,123,52.0,0.42276422764227645,0
+7429,Align Session.get parameters with requests.get,nateprewitt,2026-05-11 17:37:12+00:00,2026-05-11 19:24:34+00:00,9,2,1,1,0,0,1,1,Fix mutability issues with headers input types (#7431),124,52.0,0.41935483870967744,0
+7428,v2.34.0,nateprewitt,2026-05-11 16:58:05+00:00,2026-05-11 19:24:57+00:00,22,7,2,2,1,0,2,0,,125,53.0,0.424,0
+7433,Fix `prepare_body` stream detection for `__getattr__`-based file wrappers,k223kim,2026-05-12 13:46:08+00:00,2026-05-12 17:51:02+00:00,18,3,2,3,5,1,2,1,Fix `_encode_files` detection for `__getattr__`-based file wrappers (#7502),0,0.0,0.0,1
+7437,Constrain Response.reason to str,nateprewitt,2026-05-12 17:19:32+00:00,2026-05-13 14:42:43+00:00,2,2,1,1,0,0,1,1,Fix `_encode_files` detection for `__getattr__`-based file wrappers (#7502),126,53.0,0.42063492063492064,0
+7436,Update JsonType containers to read-based collections,nateprewitt,2026-05-12 16:53:40+00:00,2026-05-13 14:43:17+00:00,8,2,1,2,0,3,1,1,Fix mutability issues with headers input types (#7431),127,54.0,0.4251968503937008,0
+7431,Fix mutability issues with headers input types,nateprewitt,2026-05-11 20:37:26+00:00,2026-05-13 19:16:50+00:00,6,6,3,1,3,3,3,1,Fix `_encode_files` detection for `__getattr__`-based file wrappers (#7502),128,55.0,0.4296875,0
+7440,v2.34.1,nateprewitt,2026-05-13 15:19:49+00:00,2026-05-13 19:17:24+00:00,16,2,2,1,0,0,2,0,,129,56.0,0.43410852713178294,0
+7441,Move Request.headers back to Mapping,nateprewitt,2026-05-13 21:23:44+00:00,2026-05-14 16:16:26+00:00,2,3,2,1,0,0,2,1,Fix `_encode_files` detection for `__getattr__`-based file wrappers (#7502),130,56.0,0.4307692307692308,0
+7445,v2.34.2,nateprewitt,2026-05-14 16:33:15+00:00,2026-05-14 19:21:53+00:00,10,2,2,1,0,0,2,0,,131,57.0,0.4351145038167939,0
+7460,docs: indent continuation line in Session.get :param params:,aldbr,2026-05-18 08:53:23+00:00,2026-05-18 15:02:36+00:00,1,1,1,1,0,0,1,0,,0,0.0,0.0,1
+7490,Add AI Policy,sigmavirus24,2026-05-31 12:33:53+00:00,2026-05-31 13:35:05+00:00,94,1,2,1,0,0,2,0,,12,7.0,0.5833333333333334,0
+7492,Bump github/codeql-action from 4.35.1 to 4.36.0 in the actions group,dependabot[bot],2026-06-03 00:27:12+00:00,2026-06-03 00:44:54+00:00,3,3,1,1,0,0,1,0,,46,8.0,0.17391304347826086,0
+7493,Bump https://github.com/astral-sh/ruff-pre-commit from v0.15.12 to 0.15.14 in the pre-commit group,dependabot[bot],2026-06-03 00:38:13+00:00,2026-06-03 00:45:34+00:00,1,1,1,1,0,0,1,0,,47,8.0,0.1702127659574468,0
+7496,Improve static typing of 3rd party imports ,jorenham,2026-06-04 14:37:56+00:00,2026-06-04 17:20:34+00:00,19,14,5,3,1,2,5,1,Fix `_encode_files` detection for `__getattr__`-based file wrappers (#7502),0,0.0,0.0,1
+7498,Add type annotation for `Request.hooks`,jorenham,2026-06-04 19:50:10+00:00,2026-06-04 21:43:21+00:00,1,0,1,1,0,0,1,1,Fix `_encode_files` detection for `__getattr__`-based file wrappers (#7502),1,1.0,1.0,0
+7503,Bump https://github.com/astral-sh/ruff-pre-commit from v0.15.14 to 0.15.15 in the pre-commit group,dependabot[bot],2026-06-08 16:55:11+00:00,2026-06-08 17:04:24+00:00,1,1,1,1,0,0,1,0,,48,8.0,0.16666666666666666,0
+7497,Disable commonly ignored Pyright linting rules,jorenham,2026-06-04 19:16:53+00:00,2026-06-08 17:33:26+00:00,36,29,10,6,2,0,10,1,Fix `_encode_files` detection for `__getattr__`-based file wrappers (#7502),2,2.0,1.0,0
+7502,Fix `_encode_files` detection for `__getattr__`-based file wrappers,LoicPernod,2026-06-08 09:49:14+00:00,2026-06-08 20:52:51+00:00,14,1,2,1,1,5,2,0,,0,0.0,0.0,1
+7505,Add hasattr checks for remaining protocol isinstance checks,nateprewitt,2026-06-08 22:33:15+00:00,2026-06-09 15:45:59+00:00,24,7,3,1,0,0,3,0,,132,57.0,0.4318181818181818,0
+7515,Bump https://github.com/astral-sh/ruff-pre-commit from v0.15.15 to 0.15.16 in the pre-commit group,dependabot[bot],2026-06-15 16:55:51+00:00,2026-06-15 18:12:28+00:00,1,1,1,1,0,0,1,0,,49,8.0,0.16326530612244897,0
+7539,Inline pre-commit linting,nateprewitt,2026-06-24 21:45:29+00:00,2026-06-24 22:40:13+00:00,6,1,2,2,0,1,2,0,,133,57.0,0.42857142857142855,0
+7536,Bump https://github.com/astral-sh/ruff-pre-commit from v0.15.16 to 0.15.17 in the pre-commit group,dependabot[bot],2026-06-22 16:54:42+00:00,2026-06-24 22:40:30+00:00,1,1,1,1,4,0,1,0,,50,8.0,0.16,0
+7540,Bump actions/checkout from 6.0.2 to 7.0.0 in the actions group,dependabot[bot],2026-06-24 22:41:17+00:00,2026-06-24 22:47:15+00:00,8,8,6,1,0,0,6,0,,51,8.0,0.1568627450980392,0
+7551,Bump https://github.com/astral-sh/ruff-pre-commit from v0.15.17 to 0.15.18 in the pre-commit group,dependabot[bot],2026-06-29 16:54:51+00:00,2026-06-29 17:37:19+00:00,1,1,1,1,0,0,1,0,,52,8.0,0.15384615384615385,0
