@@ -4,6 +4,8 @@ Predicts which GitHub pull requests are likely to introduce bugs, so reviewers k
 
 A full end-to-end ML system: data collection, automated labeling, model training, explainability, a REST API, and an interactive dashboard.
 
+**Live demo:** https://autodebugai.streamlit.app/
+
 ## How it works
 
 1. **Collect data** — pulls 500 merged PRs and 2,000 commits from the `psf/requests` repo using the GitHub API
@@ -21,7 +23,16 @@ Dataset: **201 buggy / 299 safe PRs (40% buggy)**
 streamlit run app/dashboard.py
 ```
 
-Score any live PR from `psf/requests` by number, see its risk score and the features driving it, and browse recent PRs in a review queue sorted riskiest-first.
+Five pages, navigated from a collapsible sidebar:
+
+| Page | What it does |
+|---|---|
+| **Overview** | KPI row, risk distribution histogram, risk trend against the high-risk threshold, and a "needs review first" table |
+| **Score a PR** | Enter any `psf/requests` PR number, fetch it live, and see its risk score with SHAP feature contributions |
+| **Review queue** | Every scored PR sorted riskiest-first, filterable by risk level and title search, exportable to CSV |
+| **Model** | Model comparison table, ROC AUC dial, feature groups, and a plain-language limitations section |
+| **About** | How the pipeline works and what it's built with |
+
 
 ## Results
 
@@ -36,11 +47,6 @@ Final feature set: 10 numeric features + PR title embeddings (`all-MiniLM-L6-v2`
 
 The winning Random Forest is saved to `models/best_model.pkl`.
 
-Findings from the experiments along the way:
-
-- **Author-history features didn't help** — 45% of PRs come from first-time contributors, so most authors have no usable history.
-- **Full 384-dim title embeddings overfit** (394 features vs 400 training rows); PCA compression to 30 dims fixed it and produced the best result.
-- **Gradient boosting underperformed** — expected with only 400 training rows, where lower-variance models generalize better.
 
 ## What drives risk?
 
@@ -125,10 +131,6 @@ AutoDebugAI/
 ├── requirements.txt
 └── README.md
 ```
-
-## Limitations
-
-Labels are approximate — bug-fix matching is at file level, not line level (a simplified SZZ approach), so some labels are noisy. This caps achievable accuracy (~0.71 AUC across all models tested), and is documented honestly rather than hidden. The natural production form would be a GitHub Action that calls this API on each new PR and posts the risk as a review comment.
 
 ## Tech
 
